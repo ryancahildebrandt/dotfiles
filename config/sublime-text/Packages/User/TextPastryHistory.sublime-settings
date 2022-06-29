@@ -1,0 +1,29 @@
+{
+	"history":
+	[
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "reduce ",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "reduce "
+			},
+			"key": "01dfc2c37e60dededaa543d352d5c061",
+			"label": "reduce "
+		}
+	],
+	"last_command":
+	{
+		"args":
+		{
+			"text": "reduce ",
+			"threshold": 3
+		},
+		"command": "text_pastry_insert_text",
+		"text": "reduce "
+	}
+}
