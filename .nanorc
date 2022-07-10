@@ -1,2 +1,11 @@
 include /usr/share/nano-syntax-highlighting/*.nanorc
 include /*.nanorc
+
+set smarthome
+set backup
+set historylog
+set constantshow
+set autoindent
+set mouse
+set boldtext
+set locking

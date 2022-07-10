@@ -8,3 +8,4 @@
 - polybar
 - rofi
 - starship
+- alacritty

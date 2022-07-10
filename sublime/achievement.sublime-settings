@@ -41,8 +41,10 @@
 		"Packages/Julia/Julia.sublime-syntax",
 		"Packages/IJulia/Syntax/Julia.tmLanguage",
 		"Packages/Cheatsheet/cheatsheet.tmLanguage",
+		"Packages/TOML/TOML.sublime-syntax",
+		"Packages/zzz A File Icon zzz/aliases/Plain Text (INI).sublime-syntax",
 	],
-	"load_count": 1582,
-	"new_file_count": 3638,
-	"save_count": 10156,
+	"load_count": 1589,
+	"new_file_count": 3639,
+	"save_count": 10414,
 }

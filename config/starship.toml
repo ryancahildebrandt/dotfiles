@@ -1,53 +1,79 @@
 # ~/.config/starship.toml
 
+#prompt
 format = """ 
-[┌────────────────>](bold green)$username$hostname$status 
-[│](bold green)$directory$git_branch$git_status 
-[└─](bold green)$character
+[╭────────────⁖ ](green bold)$username$hostname$status$python$julia$rlang$golang
+[│](green bold)$directory$git_branch$git_commit$git_status
+[╰ ](green bold)$character
 """ 
 
 [character] 
-success_symbol = "[⟩](bold green)" 
-error_symbol = "[!](bold red) " 
-vicmd_symbol = "[V](bold green) " 
+success_symbol = "[⦁](green)" 
+error_symbol = "[!](red bold) "  
 
-[conda] 
-symbol="コ" 
-format = "[$symbol$environment](dimmed green) " 
+#languages
+[python]
+symbol = "py"
+format = "[-$symbol:$version-](white italic) "
 
-[python] 
-symbol = "蛇 " 
-python_binary = "python3" 
-pyenv_version_name = true 
+[julia] 
+symbol = "jl"
+format = "[-$symbol:$version-](white italic) "
 
+[golang] 
+symbol = "go"
+format = "[-$symbol:$version-](white italic) "
+
+[rlang] 
+symbol = "r"
+format = "[-$symbol:$version-](white italic) "
+
+#system info
 [username] 
-style_user = "white bold" 
-style_root = "black bold" 
+style_user = "cyan bold italic" 
+style_root = "yellow bold italic" 
 format = "[$user]($style)" 
-disabled = false 
+#show_always = true
 
 [hostname] 
 ssh_only = true 
-format = "@[$hostname](bold red) " 
-trim_at = ".companyname.com"
-disabled = false
+format = "@[$hostname](green bold italic) " 
 
 [directory] 
 truncation_length = 10 
 truncate_to_repo = false
-style = "black bold dimmed"
-
-[git_branch] 
-symbol = "" 
-style = "bold white" 
-format = '[\($symbol$branch\)]($style) ' 
-
-[git_status]
-untracked = "" 
-format = '([\[$conflicted$deleted$renamed$modified$staged$behind\]]($style) )' 
-modified = '*' 
+style = "purple italic dimmed"
 
 [status] 
 disabled = false
 format = '[\[$status - $common_meaning\]](green)'
 
+[cmd_duration]
+min_time = 1
+format = "took [$duration]($style)"
+
+#environments
+[git_branch] 
+symbol = "⎇  " 
+format = '[\($symbol$branch\)](bold purple) ' 
+
+[git_commit]
+commit_hash_length = 8
+style = "bold white dimmed"
+
+[git_status]
+format = '([\[ $conflicted$deleted$renamed$modified$staged$behind\]](bright-red italic) )' 
+conflicted = "⨉ "
+ahead = "${count} ahead "
+behind = "${count} behind "
+diverged = "ahead by ${ahead_count} behind by ${behind_count} "
+untracked = "${count} untracked "
+modified = "${count} modified "
+staged = "${count} staged "
+renamed = " ${count} renamed "
+deleted = "${count} deleted "
+stashed = "⧉ "
+
+[conda] 
+symbol = "conda" 
+format = "[$symbol$environment](dimmed green italic) " 

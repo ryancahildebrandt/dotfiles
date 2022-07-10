@@ -37,6 +37,7 @@ alias cbx="cbonsai -li --time .1 --life 50 --leaf {あ,い,う,え,お}"
 # nnn Nord Theme 
 set BLK "0B" CHR="0B" DIR="04" EXE="06" REG="00" HARDLINK="06" SYMLINK="06" MISSING="00" ORPHAN="09" FIFO="06" SOCK="0B" OTHER="06"
 set NNN_FCOLORS "$BLK$CHR$DIR$EXE$REG$HARDLINK$SYMLINK$MISSING$ORPHAN$FIFO$SOCK$OTHER" 
+set NNN_PLUG "f:finder;p:preview-tui;v:imgview"
 
 # >>> conda initialize >>> 
 # !! Contents within this block are managed by 'conda init' !! 
