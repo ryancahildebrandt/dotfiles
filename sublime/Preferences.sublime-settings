@@ -2,7 +2,15 @@
 	"added_words":
 	[
 		"adposition",
-		""
+		"",
+		"reachability",
+		"dendrogram",
+		"datapoints",
+		"centroid",
+		"gaussian",
+		"datapoint",
+		"dimensionality",
+		"embeddings",
 	],
 	"bold_folder_labels": true,
 	"color_scheme": "Monokai Pro (Filter Ristretto).sublime-color-scheme",

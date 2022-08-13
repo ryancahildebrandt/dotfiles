@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/home/ryan/.config/sublime-text/Installed Packages/GitStatusBar.sublime-package/git_status_bar.py", line 129, in <lambda>
-  File "/home/ryan/.config/sublime-text/Installed Packages/GitStatusBar.sublime-package/git_status_bar.py", line 135, in _update_status_bar
-  File "/home/ryan/.config/sublime-text/Installed Packages/GitStatusBar.sublime-package/git_status_bar.py", line 113, in badge
-  File "/home/ryan/.config/sublime-text/Installed Packages/GitStatusBar.sublime-package/git_status_bar.py", line 77, in branch
-  File "/home/ryan/.config/sublime-text/Installed Packages/GitStatusBar.sublime-package/git_status_bar.py", line 43, in run_git
-  File "/home/ryan/.config/sublime-text/Installed Packages/GitStatusBar.sublime-package/git_status_bar.py", line 64, in getcwd
-  File "/opt/sublime_text/Lib/python33/sublime.py", line 1231, in file_name

@@ -1,0 +1,12 @@
+.nanorc
+.profile
+.config/starship.toml
+.config/alacritty/alacritty.yml
+.config/bat/config
+.config/fish/config.fish
+.config/i3/config
+.config/neofetch/config.conf
+.config/nnn/nnn_conf.fish
+.config/polybar/config.ini
+.config/polybar/polybar-fcitx5-script.sh
+.config/rofi/config.rasi

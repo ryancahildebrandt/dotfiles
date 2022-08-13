@@ -1,5 +1,0 @@
-{
-    "target": "send_code_exec",
-    "code": "include(\"$file\");",
-    "selector": "source.julia"
-}

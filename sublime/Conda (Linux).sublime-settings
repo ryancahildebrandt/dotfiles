@@ -1,6 +1,6 @@
 {
-	"executable": "/home/ryan/.miniconda3/bin/python3",
-	"environment_directory": "/home/ryan/.miniconda3/envs/",
+	"executable": "/home/ryan/miniconda3/bin/python3",
+	"environment_directory": "/home/ryan/miniconda3/envs/",
 	"configuration": "~/.condarc",
 	"repl_open_row": true,
 	"repl_row_close_existing": true

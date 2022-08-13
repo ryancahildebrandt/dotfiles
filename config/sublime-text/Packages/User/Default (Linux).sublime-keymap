@@ -1,3 +1,0 @@
-[
-	{ "keys": ["alt+b"], "command": "open_conda_repl" } 
-]

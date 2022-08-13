@@ -1,0 +1,80 @@
+# ~/.config/starship.toml
+
+#prompt
+format = """ 
+[╭────────────🞅 ](green bold)$username$hostname$status$python$julia$rlang$golang
+[│](green bold)$directory$git_branch$git_commit$git_status
+[╰ ](green bold)$character
+""" 
+command_timeout = 2000
+
+[character] 
+success_symbol = "[⦁](green)" 
+error_symbol = "[!](red bold) "  
+
+#languages
+[python]
+symbol = "py"
+format = "[-$symbol:$version-](white italic) "
+
+[julia] 
+symbol = "jl"
+format = "[-$symbol:$version-](white italic) "
+
+[golang] 
+symbol = "go"
+format = "[-$symbol:$version-](white italic) "
+
+[rlang] 
+symbol = "r"
+format = "[-$symbol:$version-](white italic) "
+
+#system info
+[username] 
+style_user = "cyan bold italic" 
+style_root = "yellow bold italic" 
+format = "[$user]($style)" 
+#show_always = true
+
+[hostname] 
+ssh_only = true 
+format = "@[$hostname](green bold italic) " 
+
+[directory] 
+truncation_length = 10 
+truncate_to_repo = false
+style = "purple italic dimmed"
+
+[status] 
+disabled = false
+format = '[\[$status - $common_meaning\]](green)'
+
+[cmd_duration]
+min_time = 1
+format = "took [$duration]($style)"
+
+#environments
+[git_branch] 
+symbol = "⎇  " 
+format = '[\($symbol$branch\)](bold purple) ' 
+
+[git_commit]
+commit_hash_length = 8
+style = "bold white dimmed"
+
+[git_status]
+format = '([\[ $conflicted$deleted$renamed$modified$staged$behind\]](bright-red italic) )' 
+conflicted = "⨉ "
+ahead = "${count} ahead "
+behind = "${count} behind "
+diverged = "ahead by ${ahead_count} behind by ${behind_count} "
+untracked = "${count} untracked "
+modified = "${count} modified "
+staged = "${count} staged "
+renamed = " ${count} renamed "
+deleted = "${count} deleted "
+stashed = "⧉ "
+
+[conda] 
+symbol = "conda" 
+format = "[$symbol$environment](dimmed green italic) " 
