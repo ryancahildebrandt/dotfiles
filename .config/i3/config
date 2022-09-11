@@ -235,9 +235,11 @@ focus_follows_mouse yes
 
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
+bindsym Mod1+p exec --no-startup-id brightnessctl set +5%
+bindsym Mod1+q exec --no-startup-id brightnessctl set 5%-
 
-bindsym Mod1+p exec --no-startup-id ~/.config/rofi/bin/menu_powermenu
-bindsym Mod1+Home exec i3lock --color 000000 && brightnessctl set 5%
+#bindsym Mod1+Shift+p exec --no-startup-id ~/.config/rofi/bin/menu_powermenu
+bindsym Mod1+Home exec i3lock --color 000000 && brightnessctl set 1%
 #bindsym Mod1+Shift+Home exec --no-startup-id sudo systemctl hibernate
 
 #audio switches

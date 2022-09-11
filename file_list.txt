@@ -10,3 +10,4 @@
 .config/polybar/config.ini
 .config/polybar/polybar-fcitx5-script.sh
 .config/rofi/config.rasi
+.julia/config/startup.jl
