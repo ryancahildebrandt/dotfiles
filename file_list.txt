@@ -1,5 +1,6 @@
 .nanorc
 .profile
+.tmux.conf
 .config/starship.toml
 .config/alacritty/alacritty.yml
 .config/bat/config

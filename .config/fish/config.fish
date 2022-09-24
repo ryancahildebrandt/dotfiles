@@ -30,6 +30,7 @@ alias sf="source ~/.config/fish/config.fish"
 alias gss="find . -name .git -type d -execdir sh -c 'pwd ;git status; echo "------------"; echo' \;"
 alias cbx="cbonsai -li --time .1 --life 50 --leaf {あ,い,う,え,お}"
 alias jh="cd ~"
+alias tx="tmux"
 
 # >>> conda initialize >>> 
 # !! Contents within this block are managed by 'conda init' !! 
