@@ -1,5 +1,6 @@
 include /usr/share/nano-syntax-highlighting/*.nanorc
-include /*.nanorc
+include ~/.nano/*.nanorc
+include ~/*.nanorc
 
 set smarthome
 set backup
