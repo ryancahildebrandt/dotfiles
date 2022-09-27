@@ -1,4 +1,5 @@
 .nanorc
+julia.nanorc
 .profile
 .tmux.conf
 .config/starship.toml
