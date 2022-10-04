@@ -1,5 +1,5 @@
 include /usr/share/nano-syntax-highlighting/*.nanorc
-include ~/.nano/*.nanorc
+#include ~/.nano/*.nanorc
 include ~/*.nanorc
 
 set smarthome

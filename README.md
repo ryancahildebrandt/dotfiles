@@ -1,4 +1,4 @@
-# Dotfile repo including:
+# Dotfile repo including config files for:
 
 - i3
 - fish
@@ -9,3 +9,8 @@
 - rofi
 - starship
 - alacritty
+- nano
+- micro
+- julia
+- tmux
+- bat 

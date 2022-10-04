@@ -1,0 +1,16 @@
+{
+    "autosave": 15,
+    "colorscheme": "nord-tc",
+    "diffgutter": true,
+    "ftoptions": false,
+    "hlsearch": true,
+    "ignorecase": false,
+    "initlua": true,
+    "pluginchannels": [
+        "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"
+    ],
+    "pluginrepos": [],
+    "scrollbar": true,
+    "statusformatl": "$(filename) $(modified)($(line),$(col)) $(status.paste)| ft:$(opt:filetype)",
+    "tabhighlight": true
+}

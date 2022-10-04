@@ -31,6 +31,7 @@ alias gss="find . -name .git -type d -execdir sh -c 'pwd ;git status; echo "----
 alias cbx="cbonsai -li --time .1 --life 50 --leaf {あ,い,う,え,お}"
 alias jh="cd ~"
 alias tx="tmux"
+alias m="micro"
 
 # >>> conda initialize >>> 
 # !! Contents within this block are managed by 'conda init' !! 
