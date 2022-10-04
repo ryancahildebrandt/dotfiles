@@ -8,5 +8,6 @@ do
 	cp ~/$f ./$f
 done
 
-
+#store list of micro plugins
+micro -plugin list > micro_plugins.txt
 
