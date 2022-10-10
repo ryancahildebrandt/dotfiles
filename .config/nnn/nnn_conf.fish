@@ -1,6 +1,6 @@
 # ~/.config/nnn/nnn_conf.fish
 export NNN_OPTS="Deo"
-export NNN_PLUG='b:!bat $nnn;n:!nano $nnn;d:dragdrop;p:preview-tui;v:imgview;u:getplugs;r:renamer;j:autojump'
+export NNN_PLUG='b:!bat $nnn;m:!micro $nnn;d:dragdrop;p:preview-tui;v:imgview;u:getplugs;r:renamer;j:autojump'
 export NNN_FIFO="/tmp/nnn.fifo"
 
 set BLK "0B" 

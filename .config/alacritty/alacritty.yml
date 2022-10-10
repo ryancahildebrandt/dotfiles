@@ -21,8 +21,11 @@ custom_cursor_colors: true
 cursor:
   style: Beam
 
-dynamic_title: true
+dynamic_title: false
 live_config_reload: true
+
+window:
+  decorations: None
 
 # Base16 Rosé Pine 256 - alacritty color config
 # Emilia Dunfelt &lt;sayhi@dunfelt.se&gt;
