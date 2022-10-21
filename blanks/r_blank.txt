@@ -1,0 +1,6 @@
+#!/usr/bin/env Rscript
+# -*- coding: utf-8 -*- 
+# Created on DOW MMM DD HH:MM:SS YYYY 
+# author: Ryan Hildebrandt, github.com/ryancahildebrandt
+
+# imports ----
