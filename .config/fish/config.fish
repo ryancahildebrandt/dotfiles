@@ -33,6 +33,7 @@ alias cbx="cbonsai -li --time .1 --life 50 --leaf {あ,い,う,え,お}"
 alias jh="cd ~"
 alias tx="tmux"
 alias m="micro"
+alias xx="exit"
 
 # >>> conda initialize >>> 
 # !! Contents within this block are managed by 'conda init' !! 
@@ -46,4 +47,4 @@ conda deactivate
 #external commands/config
 source ~/.config/fish/private_commands.fish
 source ~/.config/nnn/nnn_conf.fish
-source ~/github/blanks/commands.fish
+source ~/github/dotfiles/blanks/commands.fish
