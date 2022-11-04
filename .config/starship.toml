@@ -1,69 +1,103 @@
 # ~/.config/starship.toml
 
 #prompt
-format = """ 
-[╭────────────🞅 ](green bold)$username$hostname$status$python$julia$rlang$golang
-[│](green bold)$directory$git_branch$git_commit$git_status
-[╰ ](green bold)$character
-""" 
+#format = """ 
+#[╭────────────🞅 ](green bold)$username$hostname$status$python$julia$rlang$golang\
+#[│](green bold)$directory$git_branch$git_commit$git_status\
+#[╰ ](green bold)$character\
+#""" 
+format = """
+[](#2e3440)\
+$username\
+$hostname\
+$status\
+[](bg:#434c5e fg:#2e3440)\
+$directory\
+[](fg:#434c5e bg:#4c566a)\
+$git_branch\
+$git_commit\
+$git_status\
+[](fg:#4c566a bg:#5e81ac)\
+$golang\
+$julia\
+$python\
+$rlang\
+[](fg:#5e81ac bg:#81a1c1)\
+$conda\
+[ ](fg:#81a1c1)\
+$character\
+"""
+#[](fg:#81a1c1 bg:#d8dee9)\
+#[ ](fg:#d8dee9)\
+
 command_timeout = 2000
 
 [character] 
-success_symbol = "[⦁](green)" 
-error_symbol = "[!](red bold) "  
+success_symbol = "[⦁](#eceff4)" 
+error_symbol = "[!](#bf616a) "  
 
 #languages
 [python]
-symbol = "py"
-format = "[-$symbol:$version-](white italic) "
+symbol = " "#py
+style = "bg:#5e81ac italic"
+format = "[$symbol:$version]($style)"
 
 [julia] 
-symbol = "jl"
-format = "[-$symbol:$version-](white italic) "
+symbol = " "#jl
+style = "bg:#5e81ac italic"
+format = "[$symbol:$version]($style)"
 
 [golang] 
-symbol = "go"
-format = "[-$symbol:$version-](white italic) "
+symbol = " "#go
+style = "bg:#5e81ac italic"
+format = "[$symbol:$version]($style)"
 
 [rlang] 
-symbol = "r"
-format = "[-$symbol:$version-](white italic) "
+symbol = "ﳒ "#r
+style = "bg:#5e81ac italic"
+format = "[$symbol:$version]($style)"
 
 #system info
 [username] 
-style_user = "cyan bold italic" 
-style_root = "yellow bold italic" 
+style_user = "bg:#434c5e italic" 
+style_root = "bg:#434c5e italic" 
 format = "[$user]($style)" 
 #show_always = true
 
 [hostname] 
 ssh_only = true 
-format = "@[$hostname](green bold italic) " 
+style = "bg:#434c5e italic"
+format = "@[$hostname]($style)" 
 
 [directory] 
-truncation_length = 10 
-truncate_to_repo = false
-style = "purple italic dimmed"
+truncate_to_repo = true
+style = "bg:#434c5e"
+truncation_length = 3
+truncation_symbol = "+/"
+format = "[ $path ]($style)"
 
 [status] 
 disabled = false
-format = '[\[$status - $common_meaning\]](green)'
+style = "bg:#434c5e bold"
+#format = "[\[$status - $common_meaning\]]($style)"
 
 [cmd_duration]
-min_time = 1
+min_time = 1000
+style = "bg:#d8dee9"
 format = "took [$duration]($style)"
 
 #environments
 [git_branch] 
-symbol = "⎇  " 
-format = '[\($symbol$branch\)](bold purple) ' 
+symbol = "⎇  "#⎇ 
+style = "bg:#4c566a"
+format = "[($symbol$branch)]($style)" 
 
 [git_commit]
 commit_hash_length = 8
-style = "bold white dimmed"
+style = "bg:#4c566a dimmed"
 
 [git_status]
-format = '([\[ $conflicted$deleted$renamed$modified$staged$behind\]](bright-red italic) )' 
+format = '([\[ $conflicted$deleted$renamed$modified$staged$behind\]](bg:#4c566a dimmed))' 
 conflicted = "⨉ "
 ahead = "${count} ahead "
 behind = "${count} behind "
@@ -76,5 +110,5 @@ deleted = "${count} deleted "
 stashed = "⧉ "
 
 [conda] 
-symbol = "conda" 
-format = "[$symbol$environment](dimmed green italic) " 
+symbol = " "#"conda" 
+format = "[$symbol$environment](bold bg:#81a1c1) " 
