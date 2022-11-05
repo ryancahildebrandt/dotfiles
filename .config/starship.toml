@@ -77,7 +77,7 @@ truncation_symbol = "+/"
 format = "[ $path ]($style)"
 
 [status] 
-disabled = false
+disabled = true
 style = "bg:#434c5e bold"
 #format = "[\[$status - $common_meaning\]]($style)"
 
