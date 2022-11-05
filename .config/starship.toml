@@ -67,7 +67,7 @@ format = "[$user]($style)"
 [hostname] 
 ssh_only = true 
 style = "bg:#434c5e italic"
-format = "@[$hostname]($style)" 
+format = "[@$hostname]($style)" 
 
 [directory] 
 truncate_to_repo = true
