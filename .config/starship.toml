@@ -13,11 +13,11 @@ $hostname\
 $status\
 [](bg:#434c5e fg:#2e3440)\
 $directory\
-[](fg:#434c5e bg:#4c566a)\
+[](fg:#434c5e bg:#344d80)\
 $git_branch\
 $git_commit\
 $git_status\
-[](fg:#4c566a bg:#5e81ac)\
+[](fg:#344d80 bg:#5e81ac)\
 $golang\
 $julia\
 $python\
@@ -89,15 +89,15 @@ format = "took [$duration]($style)"
 #environments
 [git_branch] 
 symbol = "⎇  "#⎇ 
-style = "bg:#4c566a"
+style = "bg:#344d80"
 format = "[($symbol$branch)]($style)" 
 
 [git_commit]
 commit_hash_length = 8
-style = "bg:#4c566a dimmed"
+style = "bg:#344d80 dimmed"
 
 [git_status]
-format = '([\[ $conflicted$deleted$renamed$modified$staged$behind\]](bg:#4c566a dimmed))' 
+format = '([\[ $conflicted$deleted$renamed$modified$staged$behind\]](bg:#344d80 dimmed))' 
 conflicted = "⨉ "
 ahead = "${count} ahead "
 behind = "${count} behind "
