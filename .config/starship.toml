@@ -59,14 +59,14 @@ format = "[$symbol:$version]($style)"
 
 #system info
 [username] 
-style_user = "bg:#434c5e italic" 
-style_root = "bg:#434c5e italic" 
+style_user = "bg:#2e3440 italic" 
+style_root = "bg:#2e3440 italic" 
 format = "[$user]($style)" 
 #show_always = true
 
 [hostname] 
 ssh_only = true 
-style = "bg:#434c5e italic"
+style = "bg:#2e3440 italic"
 format = "[@$hostname]($style)" 
 
 [directory] 
