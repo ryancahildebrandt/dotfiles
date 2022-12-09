@@ -34,6 +34,7 @@ alias jh="cd ~"
 alias tx="tmux"
 alias m="micro"
 alias xx="exit"
+alias tt="tldr"
 
 # >>> conda initialize >>> 
 # !! Contents within this block are managed by 'conda init' !! 
