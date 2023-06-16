@@ -2,8 +2,7 @@
 
 # Fish options 
 starship init fish | source
-set PATH ~/miniconda3/bin $PATH
-set fish_user_paths ~/miniconda3/bin $fish_user_paths
+fish_add_path ~/miniconda3/bin ~/julia/bin ~/.juliaup/bin
 set -U fish_greeting "
    °
     O     /`·.¸
@@ -43,7 +42,7 @@ eval /home/ryan/miniconda3/bin/conda "shell.fish" "hook" $argv | source
 conda deactivate
 
 #autojump
-[ -f /usr/share/autojump/autojump.fish ]; and source /usr/share/autojump/autojump.fish
+if test -f /home/ryan/.autojump/share/autojump/autojump.fish; . /home/ryan/.autojump/share/autojump/autojump.fish; end
 
 #external commands/config
 source ~/.config/fish/private_commands.fish
