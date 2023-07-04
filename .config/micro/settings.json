@@ -2,7 +2,6 @@
     "autosave": 15,
     "colorscheme": "nord-16",
     "diffgutter": true,
-    "eofnewline": false,
     "ftoptions": false,
     "hlsearch": true,
     "ignorecase": false,
