@@ -2,7 +2,7 @@
 
 # Fish options 
 starship init fish | source
-fish_add_path ~/miniconda3/bin ~/julia/bin ~/.juliaup/bin 
+fish_add_path ~/miniconda3/bin ~/julia/bin ~/.juliaup/bin ~/.local/bin
 set -U fish_greeting "
    °
     O     /`·.¸
