@@ -2,7 +2,7 @@
 
 # Fish options 
 starship init fish | source
-fish_add_path ~/miniconda3/bin ~/julia/bin ~/.juliaup/bin ~/.local/bin
+fish_add_path ~/miniconda3/bin ~/julia/bin ~/.juliaup/bin
 set -U fish_greeting "
    °
     O     /`·.¸
@@ -19,7 +19,7 @@ set -U fish_greeting "
 # Custom aliases
 alias lx="ls -1AFhs --color --group-directories-first" 
 alias nx="natls -gln" 
-alias bat="batcat" 
+#alias bat="batcat" 
 alias kboff="xinput float 10" 
 alias kbon="xinput reattach 10 3" 
 alias nomachine="/usr/NX/bin/nxplayer" 
@@ -43,10 +43,9 @@ eval /home/ryan/miniconda3/bin/conda "shell.fish" "hook" $argv | source
 conda deactivate
 
 #autojump
-[ -f /usr/share/autojump/autojump.fish ]; and source /usr/share/autojump/autojump.fish
+if test -f /home/ryan/.autojump/share/autojump/autojump.fish; . /home/ryan/.autojump/share/autojump/autojump.fish; end
 
 #external commands/config
 source ~/.config/fish/private_commands.fish
 source ~/.config/nnn/nnn_conf.fish
 source ~/github/dotfiles/blanks/commands.fish
-bash /usr/share/autojump/autojump.sh
