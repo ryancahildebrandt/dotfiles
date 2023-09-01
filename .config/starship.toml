@@ -38,22 +38,22 @@ error_symbol = "[!](#bf616a) "
 
 #languages
 [python]
-symbol = " "#py
+symbol = "py "#
 style = "bg:#5e81ac italic"
 format = "[$symbol:$version]($style)"
 
 [julia] 
-symbol = " "#jl
+symbol = "jl "#jl
 style = "bg:#5e81ac italic"
 format = "[$symbol:$version]($style)"
 
 [golang] 
-symbol = " "#go
+symbol = "go "#go
 style = "bg:#5e81ac italic"
 format = "[$symbol:$version]($style)"
 
 [rlang] 
-symbol = "ﳒ "#r
+symbol = "r "#rﳒ
 style = "bg:#5e81ac italic"
 format = "[$symbol:$version]($style)"
 

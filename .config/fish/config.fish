@@ -2,7 +2,7 @@
 
 # Fish options 
 starship init fish | source
-fish_add_path ~/miniconda3/bin ~/julia/bin ~/.juliaup/bin
+fish_add_path ~/miniconda3/bin ~/julia/bin ~/.juliaup/bin 
 set -U fish_greeting "
    °
     O     /`·.¸
@@ -16,10 +16,12 @@ set -U fish_greeting "
 
 "
 
+
 # Custom aliases
 alias lx="ls -1AFhs --color --group-directories-first" 
-alias nx="natls -gln" 
-#alias bat="batcat" 
+alias ee="exa -GlFa --icons --group-directories-first"
+#alias nx="natls -gln" 
+alias bat="batcat" 
 alias kboff="xinput float 10" 
 alias kbon="xinput reattach 10 3" 
 alias nomachine="/usr/NX/bin/nxplayer" 
@@ -35,6 +37,8 @@ alias m="micro"
 alias xx="exit"
 alias tt="tldr"
 alias duck="~/duckdb"
+alias flash="~/github/fla.sh/flash"
+#alias j="autojump"
 
 # >>> conda initialize >>> 
 # !! Contents within this block are managed by 'conda init' !! 
