@@ -18,7 +18,8 @@ set -U fish_greeting "
 
 # Custom aliases
 alias lx="ls -1AFhs --color --group-directories-first" 
-alias nx="natls -gln" 
+alias ee="exa -GlFa --icons --group-directories-first"
+#alias nx="natls -gln" 
 alias bat="batcat" 
 alias kboff="xinput float 10" 
 alias kbon="xinput reattach 10 3" 
