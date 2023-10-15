@@ -7,7 +7,6 @@ julia.nanorc
 .gemrc
 .config/starship.toml
 .config/alacritty/alacritty.yml
-.config/audacious/config
 .config/bat/config
 .config/fish/config.fish
 .config/gh/config.yml

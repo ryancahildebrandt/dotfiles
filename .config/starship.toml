@@ -22,6 +22,7 @@ $golang\
 $julia\
 $python\
 $rlang\
+$ruby\
 [](fg:#5e81ac bg:#81a1c1)\
 $conda\
 [ ](fg:#81a1c1)\
@@ -38,7 +39,7 @@ error_symbol = "[!](#bf616a) "
 
 #languages
 [python]
-symbol = " "#py
+symbol = " "#py
 style = "bg:#5e81ac italic"
 format = "[$symbol:$version]($style)"
 
@@ -53,7 +54,12 @@ style = "bg:#5e81ac italic"
 format = "[$symbol:$version]($style)"
 
 [rlang] 
-symbol = "ﳒ "#r
+symbol = "R "#r
+style = "bg:#5e81ac italic"
+format = "[$symbol:$version]($style)"
+
+[ruby]
+symbol = " "#rb
 style = "bg:#5e81ac italic"
 format = "[$symbol:$version]($style)"
 
@@ -88,7 +94,7 @@ format = "took [$duration]($style)"
 
 #environments
 [git_branch] 
-symbol = "⎇  "#⎇ 
+symbol = " "#⎇ 
 style = "bg:#344d80"
 format = "[($symbol$branch)]($style)" 
 

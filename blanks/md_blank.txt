@@ -9,10 +9,13 @@
 ---
 
 ## Dataset
-The dataset used for the current project was pulled from the following: 
+
+The dataset used for the current project was pulled from the following:
+
 - [text](url) 
 
 ---
 
 ## Outputs
+
 - [text](url)

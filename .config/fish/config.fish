@@ -31,6 +31,10 @@ alias m="micro"
 alias xx="exit"
 alias tt="tldr"
 alias duck="~/duckdb"
+alias sst="systemctl start"
+alias ssp="systemctl stop"
+alias ssr="systemctl restart"
+alias sss="systemctl status"
 
 # >>> conda initialize >>> 
 # !! Contents within this block are managed by 'conda init' !! 
