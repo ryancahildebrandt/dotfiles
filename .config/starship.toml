@@ -22,6 +22,7 @@ $golang\
 $julia\
 $python\
 $rlang\
+$ruby\
 [](fg:#5e81ac bg:#81a1c1)\
 $conda\
 [ ](fg:#81a1c1)\
@@ -43,17 +44,22 @@ style = "bg:#5e81ac italic"
 format = "[$symbol:$version]($style)"
 
 [julia] 
-symbol = "jl "#jl
+symbol = "jl "#
 style = "bg:#5e81ac italic"
 format = "[$symbol:$version]($style)"
 
 [golang] 
-symbol = "go "#go
+symbol = "go "#󰟓
 style = "bg:#5e81ac italic"
 format = "[$symbol:$version]($style)"
 
 [rlang] 
-symbol = "r "#rﳒ
+symbol = "r "#
+style = "bg:#5e81ac italic"
+format = "[$symbol:$version]($style)"
+
+[ruby] 
+symbol = "rb "#
 style = "bg:#5e81ac italic"
 format = "[$symbol:$version]($style)"
 

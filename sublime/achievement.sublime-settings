@@ -1,5 +1,5 @@
 {
-	"clone_file_count": 5,
+	"clone_file_count": 6,
 	"file_type":
 	[
 		"Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax",
@@ -43,8 +43,9 @@
 		"Packages/Cheatsheet/cheatsheet.tmLanguage",
 		"Packages/TOML/TOML.sublime-syntax",
 		"Packages/zzz A File Icon zzz/aliases/Plain Text (INI).sublime-syntax",
+		"Packages/Ruby/Ruby.sublime-syntax",
 	],
-	"load_count": 1736,
-	"new_file_count": 3939,
-	"save_count": 12693,
+	"load_count": 1737,
+	"new_file_count": 3940,
+	"save_count": 12709,
 }
