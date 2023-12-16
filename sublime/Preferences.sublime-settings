@@ -39,8 +39,9 @@
 	"bold_folder_labels": true,
 	"color_scheme": "Monokai Pro (Filter Ristretto).sublime-color-scheme",
 	"draw_white_space": "all",
-	"font_face": "Fira Code",
-	//"font_face": "Victor Mono",
+	//"font_face": "Fira Code",
+	"font_face": "Victor Mono",
+	"tab_size" : 4,
 	"font_options":
 	[
 		"cv06",
@@ -72,4 +73,5 @@
 	],
 	"theme": "Monokai Pro (Filter Ristretto).sublime-theme",
 	"theme_agila_active_tab_entry_pink": true,
+	"index_files": true,
 }
