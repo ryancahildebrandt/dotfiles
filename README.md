@@ -14,3 +14,5 @@
 - julia
 - tmux
 - bat 
+- plasma shortcuts
+- nixos
