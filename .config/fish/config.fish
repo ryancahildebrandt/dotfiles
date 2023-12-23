@@ -48,5 +48,9 @@ conda deactivate
 #external commands/config
 source ~/.config/fish/private_commands.fish
 source ~/.config/nnn/nnn_conf.fish
+source ~/.config/fzf/fzf_conf.fish
 source ~/github/dotfiles/blanks/commands.fish
 bash /usr/share/autojump/autojump.sh
+
+#on start
+#neofetch

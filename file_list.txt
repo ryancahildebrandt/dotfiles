@@ -13,6 +13,7 @@ julia.nanorc
 .config/micro/settings.json
 .config/neofetch/config.conf
 .config/nnn/nnn_conf.fish
+.config/fzf/fzf_conf.fish
 .config/pipewire/client.conf
 .config/pipewire/pipewire.conf
 .config/pipewire/pipewire-pulse.conf
