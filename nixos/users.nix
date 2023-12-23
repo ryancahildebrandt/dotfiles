@@ -16,11 +16,14 @@
 			dmenu
 			duckdb
 			eza
+			fd
 			firefox
+			fzf
 			gh
 			libreoffice
 			neofetch
 			nnn
+			ripgrep
 			starship
 			sublime4
 			thunderbird

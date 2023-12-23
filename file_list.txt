@@ -12,5 +12,6 @@ julia.nanorc
 .config/micro/settings.json
 .config/neofetch/config.conf
 .config/nnn/nnn_conf.fish
+.config/fzf/fzf_conf.fish
 .julia/config/startup.jl
 .juliaup/juliaupself.json

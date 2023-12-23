@@ -25,7 +25,7 @@ $rlang\
 $ruby\
 [](fg:#5e81ac bg:#81a1c1)\
 $conda\
-[ ](fg:#81a1c1)\
+[](fg:#81a1c1)\
 $character\
 """
 #[](fg:#81a1c1 bg:#d8dee9)\
@@ -34,7 +34,7 @@ $character\
 command_timeout = 2000
 
 [character] 
-success_symbol = "[⦁](#eceff4)" 
+success_symbol = "[❭](#eceff4)" 
 error_symbol = "[!](#bf616a) "  
 
 #languages
