@@ -18,7 +18,7 @@ starship init fish | source
 
 # Custom aliases
 alias lx="ls -1AFhs --color --group-directories-first"
-alias ee="exa -GlFa --icons --group-directories-first"
+alias ee="exa -laGF --icons --group-directories-first"
 #alias kboff="xinput float 10" 
 #alias kbon="xinput reattach 10 3" 
 #alias nomachine="/usr/NX/bin/nxplayer" 

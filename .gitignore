@@ -4,6 +4,7 @@ sublime/Theme - Monokai Pro/
 .config/sublime-text/Packages
 .config/sublime-text/Backup
 .config/sublime-text/Installed*
+.config/sublime-text/Lib
 *~
 *history*
 *History*

@@ -13,6 +13,7 @@
 			alacritty
 			autojump
 			bat
+			chromium
 			dmenu
 			duckdb
 			eza
@@ -23,10 +24,12 @@
 			libreoffice
 			neofetch
 			nnn
+			pandoc
 			ripgrep
 			starship
 			sublime4
 			thunderbird
+			yubioath-flutter
 			yubico-pam
 			libsForQt5.kwallet-pam
 		];
@@ -38,8 +41,11 @@
 	programs.git.enable = true;
 	programs.htop.enable = true;
 	programs.nano.enable = true;
+	#programs.hyprland.enable = true;
 	#programs.nix-index.enable = true;
 	#programs.tmux.enable = true;
+
+	services.pcscd.enable = true;
 
 	#nixpkgs.config.packageOverrides = pkgs:{ nnn = pkgs.nnn.override { withNerdFonts = true; };};
 	nixpkgs.config.allowUnfree = true;

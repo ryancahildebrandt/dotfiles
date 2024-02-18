@@ -1,16 +1,20 @@
 # Font configuration (changes require restart)
 font:
   normal:
-    family: Victor Mono Nerd Font
+#    family: Victor Mono Nerd Font
+    family: Hurmit Nerd Font Light 
     style: Regular
   bold:
-    family: Victor Mono Nerd Font
+#    family: Victor Mono Nerd Font
+    family: Hurmit Nerd Font Light 
     style: Bold
   italic:
-    family: Victor Mono Nerd Font
+#    family: Victor Mono Nerd Font
+    family: Hurmit Nerd Font Light
     style: Italic
   bold_italic:
-    family: Victor Mono Nerd Font
+#    family: Victor Mono Nerd Font
+    family: Hurmit Nerd Font Light
     style: Bold Italic
 
   size: 8.0
