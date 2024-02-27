@@ -22,6 +22,7 @@
 			fzf
 			gh
 			libreoffice
+			libsForQt5.kwallet-pam
 			neofetch
 			nnn
 			pandoc
@@ -31,7 +32,6 @@
 			thunderbird
 			yubioath-flutter
 			yubico-pam
-			libsForQt5.kwallet-pam
 		];
 	};
 

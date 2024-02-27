@@ -1,6 +1,4 @@
 .nanorc
-julia.nanorc
-.profile
 .tmux.conf
 .duckdbrc
 .config/kglobalshortcutsrc
@@ -13,5 +11,3 @@ julia.nanorc
 .config/neofetch/config.conf
 .config/nnn/nnn_conf.fish
 .config/fzf/fzf_conf.fish
-.julia/config/startup.jl
-.juliaup/juliaupself.json
