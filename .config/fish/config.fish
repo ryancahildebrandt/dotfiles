@@ -54,3 +54,4 @@ bash /usr/share/autojump/autojump.sh
 
 #on start
 #neofetch
+status --is-interactive; and ~/.rbenv/bin/rbenv init - fish | source
