@@ -11,3 +11,4 @@
 .config/neofetch/config.conf
 .config/nnn/nnn_conf.fish
 .config/fzf/fzf_conf.fish
+.config/navi/config.yaml

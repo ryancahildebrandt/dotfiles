@@ -21,7 +21,6 @@
 		micro
 		nano
 		nanorc
-		tldr
 		tmux
 		wget
 		zsh

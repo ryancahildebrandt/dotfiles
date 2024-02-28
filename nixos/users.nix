@@ -23,6 +23,7 @@
 			gh
 			libreoffice
 			libsForQt5.kwallet-pam
+			navi
 			neofetch
 			nnn
 			pandoc
