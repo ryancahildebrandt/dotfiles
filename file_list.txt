@@ -18,4 +18,5 @@ server.code-profile
 .config/pipewire/client.conf
 .config/pipewire/pipewire.conf
 .config/pipewire/pipewire-pulse.conf
+.config/navi/config.yaml
 .julia/config/startup.jl

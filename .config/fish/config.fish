@@ -2,7 +2,7 @@
 
 # Fish options 
 starship init fish | source
-fish_add_path ~/miniconda3/bin ~/julia/bin ~/.juliaup/bin ~/.local/bin
+fish_add_path ~/miniconda3/bin ~/julia/bin ~/.juliaup/bin ~/.local/bin ~/.cargo/bin
 set -U fish_greeting "
    °
     O     /`·.¸
@@ -29,7 +29,8 @@ alias jh="cd ~"
 alias tx="tmux"
 alias m="micro"
 alias xx="exit"
-alias tt="tldr"
+#alias tt="tldr"
+alias nv="navi"
 alias duck="~/duckdb"
 alias sst="systemctl start"
 alias ssp="systemctl stop"
