@@ -2,6 +2,7 @@
 
 # Fish options 
 starship init fish | source
+navi widget fish | source
 #fish_add_path ~/miniconda3/bin ~/julia/bin ~/.juliaup/bin 
 #set -U fish_greeting "
 #   °
@@ -32,14 +33,16 @@ alias jh="cd ~"
 alias tx="tmux"
 alias m="micro"
 alias xx="exit"
-#alias tt="tldr"
+alias bc="eva"
 alias nv=navi
 alias duck="~/duckdb"
-#alias flash="~/github/fla.sh/flash"
 alias nxu="sudo nix-channel --update"
 alias nxs="sudo nixos-rebuild switch"
 alias nxb="sudo nixos-rebuild boot"
 alias nxt="sudo nixos-rebuild test"
+
+# thefuck
+eval (thefuck --alias fuck | tr '\n' ';')
 
 # >>> conda initialize >>> 
 # !! Contents within this block are managed by 'conda init' !! 

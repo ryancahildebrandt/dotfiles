@@ -14,7 +14,6 @@
 			autojump
 			bat
 			chromium
-			dmenu
 			duckdb
 			eza
 			fd
@@ -30,6 +29,7 @@
 			ripgrep
 			starship
 			sublime4
+			thefuck
 			thunderbird
 			yubioath-flutter
 			yubico-pam

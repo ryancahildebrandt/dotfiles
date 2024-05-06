@@ -12,6 +12,7 @@
 
 	environment.systemPackages = with pkgs; [
 		bash
+		eva
 		fish
 		gawk
 		git
