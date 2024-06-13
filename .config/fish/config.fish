@@ -40,6 +40,7 @@ alias nxu="sudo nix-channel --update"
 alias nxs="sudo nixos-rebuild switch"
 alias nxb="sudo nixos-rebuild boot"
 alias nxt="sudo nixos-rebuild test"
+alias ff="fzf"
 
 # thefuck
 eval (thefuck --alias fuck | tr '\n' ';')

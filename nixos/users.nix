@@ -33,6 +33,7 @@
 			thunderbird
 			yubioath-flutter
 			yubico-pam
+#			zed-editor
 		];
 	};
 

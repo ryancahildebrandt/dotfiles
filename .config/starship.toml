@@ -26,7 +26,8 @@ $ruby\
 [](fg:#5e81ac bg:#81a1c1)\
 $conda\
 [](fg:#81a1c1)\
-$character\
+\n
+$character
 """
 #[](fg:#81a1c1 bg:#d8dee9)\
 #[ ](fg:#d8dee9)\
@@ -34,8 +35,8 @@ $character\
 command_timeout = 2000
 
 [character] 
-success_symbol = "[❭](#eceff4)" 
-error_symbol = "[!](#bf616a) "  
+success_symbol = "[ ❭](#eceff4)" 
+error_symbol = "[!❭](#bf616a) "  
 
 #languages
 [python]
