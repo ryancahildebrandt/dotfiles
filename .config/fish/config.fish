@@ -2,7 +2,8 @@
 
 # Fish options 
 starship init fish | source
-fish_add_path ~/miniconda3/bin ~/julia/bin ~/.juliaup/bin ~/.local/bin ~/.cargo/bin
+navi widget fish | source
+fish_add_path ~/miniconda3/bin ~/julia/bin ~/.juliaup/bin ~/.local/bin ~/.cargo/bin ~/exercism/bin
 set -U fish_greeting "
    °
     O     /`·.¸
@@ -31,11 +32,19 @@ alias m="micro"
 alias xx="exit"
 #alias tt="tldr"
 alias nv="navi"
+alias nvp="navi --print"
 alias duck="~/duckdb"
 alias sst="systemctl start"
 alias ssp="systemctl stop"
 alias ssr="systemctl restart"
 alias sss="systemctl status"
+alias cpruff="cp ~/ruff.toml ./ruff.toml"
+alias neofetch="rsftch -o 'Ubuntu'"
+alias ff="fzf"
+alias fd="fdfind"
+
+# thefuck
+eval (thefuck --alias fuck | tr '\n' ';')
 
 # >>> conda initialize >>> 
 # !! Contents within this block are managed by 'conda init' !! 

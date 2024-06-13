@@ -1,10 +1,10 @@
 # title
-
+## *subtitle*
 ---
 
 [*Open*](https://gitpod.io/#https://github.com/ryancahildebrandt/repo) *in gitpod*
 
-## *Purpose*
+## Purpose
 
 ---
 

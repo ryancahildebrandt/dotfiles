@@ -6,6 +6,7 @@ julia.nanorc
 .condarc
 .gemrc
 server.code-profile
+ruff.toml
 .config/starship.toml
 .config/alacritty/alacritty.yml
 .config/bat/config

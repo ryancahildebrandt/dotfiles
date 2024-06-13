@@ -7,6 +7,7 @@ alias new_r="date | xargs -I {} sed 's/DOW MMM DD HH:MM:SS YYYY/{}/g' ~/github/d
 alias new_jl="date | xargs -I {} sed 's/DOW MMM DD HH:MM:SS YYYY/{}/g' ~/github/dotfiles/blanks/jl_blank.txt"
 alias new_md="date | xargs -I {} sed 's/DOW MMM DD HH:MM:SS YYYY/{}/g' ~/github/dotfiles/blanks/md_blank.txt"
 alias new_rb="date | xargs -I {} sed 's/DOW MMM DD HH:MM:SS YYYY/{}/g' ~/github/dotfiles/blanks/rb_blank.txt"
+alias new_go="date | xargs -I {} sed 's/DOW MMM DD HH:MM:SS YYYY/{}/g' ~/github/dotfiles/blanks/go_blank.txt"
 
 #Usage
 
