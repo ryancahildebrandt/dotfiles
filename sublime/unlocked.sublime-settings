@@ -55,6 +55,11 @@
 		"clone_file_count",
 		"filename",
 		"file_type",
-		"selector_count"
+		"selector_count",
+		"view_achievement_count",
+	],
+	"view_achievement_count":
+	[
+		"Checking!"
 	],
 }

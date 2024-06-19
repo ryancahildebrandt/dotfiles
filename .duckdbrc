@@ -8,5 +8,4 @@ INSTALL 'fts'; LOAD 'fts';
 INSTALL 'httpfs'; LOAD 'httpfs';
 INSTALL 'json'; LOAD 'json';
 INSTALL 'parquet'; LOAD 'parquet';
-INSTALL 'visualizer'; LOAD 'visualizer';
 

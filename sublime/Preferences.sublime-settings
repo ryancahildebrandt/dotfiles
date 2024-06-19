@@ -37,10 +37,10 @@
 		"tradeoff",
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Monokai Pro (Filter Ristretto).sublime-color-scheme",
+	"color_scheme": "Monokai Pro (Filter Octagon).sublime-color-scheme",
 	"draw_white_space": "all",
-	"font_face": "Fira Code",
-	//"font_face": "Victor Mono",
+	"index_files": false,
+	"font_face": "VictorMono Nerd Font Medium",
 	"font_options":
 	[
 		"cv06",
@@ -57,19 +57,15 @@
 		"gray_antialias",
 		"subpixel_antialias"
 	],
-	"font_size": 12,
+	"font_size": 10,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-//		"Markdown",
-//		"Monokai Extended",
-		"Markdown",
 		"Vintage",
 	],
 	"rulers":
 	[
 		80
 	],
-	"theme": "Monokai Pro (Filter Ristretto).sublime-theme",
-	"theme_agila_active_tab_entry_pink": true,
+	"theme": "Monokai Pro (Filter Octagon).sublime-theme",
 }
