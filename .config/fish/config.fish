@@ -3,7 +3,7 @@
 # Fish options 
 starship init fish | source
 navi widget fish | source
-fish_add_path ~/miniconda3/bin ~/julia/bin ~/.juliaup/bin ~/.local/bin ~/.cargo/bin ~/exercism/bin
+fish_add_path ~/miniconda3/bin ~/julia/bin ~/.juliaup/bin ~/.local/bin ~/.local/share ~/.cargo/bin ~/exercism/bin ~/.local/bin/qobuz-dl /root/.cargo/bin
 set -U fish_greeting "
    °
     O     /`·.¸
@@ -34,12 +34,14 @@ alias xx="exit"
 alias nv="navi"
 alias nvp="navi --print"
 alias duck="~/duckdb"
-alias sst="systemctl start"
-alias ssp="systemctl stop"
-alias ssr="systemctl restart"
-alias sss="systemctl status"
+alias sst="systemctl --user start"
+alias ssp="systemctl --user stop"
+alias ssr="systemctl --user restart"
+alias sss="systemctl --user status"
 alias cpruff="cp ~/ruff.toml ./ruff.toml"
-alias neofetch="rsftch -o 'Ubuntu'"
+alias rf="ruff format"
+alias rc="ruff check"
+alias neofetch="rsftch"
 alias ff="fzf"
 alias fd="fdfind"
 
@@ -61,7 +63,3 @@ source ~/.config/nnn/nnn_conf.fish
 source ~/.config/fzf/fzf_conf.fish
 source ~/github/dotfiles/blanks/commands.fish
 bash /usr/share/autojump/autojump.sh
-
-#on start
-#neofetch
-status --is-interactive; and ~/.rbenv/bin/rbenv init - fish | source

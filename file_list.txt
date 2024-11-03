@@ -15,6 +15,9 @@ ruff.toml
 .config/micro/settings.json
 .config/neofetch/config.conf
 .config/nnn/nnn_conf.fish
+.config/nushell/config.nu
+.config/nushell/env.nu
+.config/nushell/plugins.nu
 .config/fzf/fzf_conf.fish
 .config/pipewire/client.conf
 .config/pipewire/pipewire.conf
