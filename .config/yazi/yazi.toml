@@ -1,0 +1,7 @@
+[manager]
+sort_dir_first = true
+linemode = "size"
+tab_size = 4
+
+[opener]
+edit = [{ run = 'micro "$@"', block = true, for = "unix" }]

@@ -17,3 +17,4 @@ cp /etc/nixos/desktop.nix ./nixos/desktop.nix
 cp /etc/nixos/system.nix ./nixos/system.nix
 cp /etc/nixos/fonts.nix ./nixos/fonts.nix
 cp /etc/nixos/users.nix ./nixos/users.nix
+cp -r /etc/nixos/packages ./nixos/

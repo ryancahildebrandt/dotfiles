@@ -11,9 +11,9 @@
 		];
 		packages = with pkgs; [
 			alacritty
-			autojump
 			bat
 			chromium
+			delta
 			duckdb
 			eza
 			fd
@@ -24,16 +24,20 @@
 			libsForQt5.kwallet-pam
 			navi
 			neofetch
-			nnn
 			pandoc
 			ripgrep
+			sd
 			starship
 			sublime4
 			thefuck
 			thunderbird
+			unzip
+			ventoy-full
+			wiki-tui
+			yazi
 			yubioath-flutter
 			yubico-pam
-#			zed-editor
+			zoxide
 		];
 	};
 

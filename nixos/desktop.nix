@@ -2,13 +2,11 @@
 {
 	services.xserver.enable = true;
 	services.xserver.desktopManager.plasma5.enable = true;
-	services.xserver.displayManager.sddm.enable = true;
-	services.xserver.displayManager.autoLogin.enable = true;
-	services.xserver.displayManager.autoLogin.user = "ryan";
-	services.xserver = {
-		layout = "us";
-		xkbVariant = "";
-	};
+	services.displayManager.sddm.enable = true;
+	services.displayManager.autoLogin.enable = true;
+	services.displayManager.autoLogin.user = "ryan";
+	services.xserver.xkb.layout = "us";
+	services.xserver.xkb.variant = "";
 
 	environment.systemPackages = with pkgs; [
 		bash
