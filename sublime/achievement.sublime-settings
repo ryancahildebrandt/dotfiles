@@ -45,9 +45,10 @@
 		"Packages/zzz A File Icon zzz/aliases/Plain Text (INI).sublime-syntax",
 		"Packages/Markdown/Markdown.sublime-syntax",
 		"Packages/Go/Go.sublime-syntax",
+		"Packages/PlantUmlDiagrams/Syntaxes/Diagram.sublime-syntax",
 	],
-	"load_count": 1775,
-	"new_file_count": 3979,
-	"save_count": 12709,
+	"load_count": 1810,
+	"new_file_count": 3997,
+	"save_count": 12813,
 	"view_achievement_count": 1,
 }

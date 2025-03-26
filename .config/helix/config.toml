@@ -1,0 +1,68 @@
+theme = "everforest_dark"
+
+[editor]
+line-number = "relative"
+mouse = true
+cursorline = true
+bufferline = "multiple"
+color-modes = true
+end-of-line-diagnostics = "hint"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = true
+
+[editor.statusline]
+left = ["mode", "spinner", "position", "version-control"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "/"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.lsp]
+display-inlay-hints	= true
+
+[editor.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+
+[editor.auto-save]
+focus-lost = true
+after-delay.enable = true
+after-delay.timeout = 3000
+
+[editor.whitespace.render]
+space = "all"
+tab = "all"
+nbsp = "all"
+nnbsp = "all"
+newline = "none"
+
+[editor.indent-guides]
+render = true
+character = "╎" # Some characters that work well: "▏", "┆", "┊", "⸽"
+
+#[editor.inline-diagnostics]
+#cursor-line = "warning"
+#other-lines = "warning"
+
+[keys.normal]
+C-q = ":wq"
+C-s = ":w"
+
+[keys.insert]
+C-q = ":wq"
+C-s = ":w"
+
+[keys.select]
+C-q = ":wq"
+C-s = ":w"

@@ -42,7 +42,7 @@ error_symbol = "[!❭](#bf616a) "
 [python]
 symbol = " "#py
 style = "bg:#5e81ac italic"
-format = "[$symbol:$version]($style)"
+format = "[$symbol:$virtualenv:$version]($style)"
 
 [julia] 
 symbol = " "#jl

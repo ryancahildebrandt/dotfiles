@@ -68,4 +68,15 @@
 		80
 	],
 	"theme": "Monokai Pro (Filter Octagon).sublime-theme",
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ".",
+			"selector": "source.go",
+		},
+		{
+			"characters": "\\",
+			"selector": "text.tex.latex",
+		}
+	],
 }
