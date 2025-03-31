@@ -3,6 +3,7 @@
 ---
 
 [*Open*](https://gitpod.io/#https://github.com/ryancahildebrandt/repo) *in gitpod*
+[![This project contains 0% LLM-generated content](https://brainmade.org/88x31-dark.png)](https://brainmade.org/)
 
 ## Purpose
 
