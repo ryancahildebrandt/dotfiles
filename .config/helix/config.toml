@@ -4,7 +4,7 @@ theme = "everforest_dark"
 line-number = "relative"
 mouse = true
 cursorline = true
-bufferline = "multiple"
+bufferline = "always"
 color-modes = true
 end-of-line-diagnostics = "hint"
 
@@ -14,19 +14,20 @@ normal = "block"
 select = "underline"
 
 [editor.file-picker]
-hidden = true
+
 
 [editor.statusline]
 left = ["mode", "spinner", "position", "version-control"]
 center = ["file-name"]
 right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
 separator = "/"
-mode.normal = "NORMAL"
-mode.insert = "INSERT"
-mode.select = "SELECT"
+mode.normal = "NOR"
+mode.insert = "INS"
+mode.select = "SEL"
 
 [editor.lsp]
-display-inlay-hints	= true
+display-inlay-hints = true
+display-progress-messages = true
 
 [editor.auto-pairs]
 '(' = ')'
@@ -51,9 +52,9 @@ newline = "none"
 render = true
 character = "╎" # Some characters that work well: "▏", "┆", "┊", "⸽"
 
-#[editor.inline-diagnostics]
-#cursor-line = "warning"
-#other-lines = "warning"
+[editor.inline-diagnostics]
+cursor-line = "warning"
+other-lines = "warning"
 
 [keys.normal]
 C-q = ":wq"

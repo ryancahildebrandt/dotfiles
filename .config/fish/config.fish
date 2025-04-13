@@ -4,7 +4,7 @@
 zoxide init --cmd j fish | source
 starship init fish | source
 navi widget fish | source
-fish_add_path ~/miniconda3/bin ~/julia/bin ~/.juliaup/bin ~/.local/bin ~/.local/share ~/.cargo/bin ~/exercism/bin ~/.local/bin/qobuz-dl /root/.cargo/bin ~/go/bin ~/helix /usr/bin/ruby
+fish_add_path ~/julia/bin ~/.juliaup/bin ~/.local/bin ~/.local/share ~/.local/share/gem/ruby ~/.cargo/bin ~/exercism/bin ~/.local/bin/qobuz-dl /root/.cargo/bin ~/go/bin ~/helix /usr/bin/ruby /usr/bin/npm /usr/bin/node
 set -U fish_greeting ""
 # °
 # O     /`·.¸
@@ -51,6 +51,7 @@ alias uvd="deactivate"
 alias v="nvim"
 alias h="hx"
 alias e="emacs"
+alias lg="lazygit"
 
 # thefuck
 eval (thefuck --alias fuck | tr '\n' ';')
@@ -60,3 +61,6 @@ source ~/.config/fish/private_commands.fish
 source ~/.config/nnn/nnn_conf.fish
 source ~/.config/fzf/fzf_conf.fish
 source ~/github/dotfiles/blanks/commands.fish
+
+# Added by `rbenv init` on Tue Mar 25 08:56:02 PM EDT 2025
+status --is-interactive; and ~/.rbenv/bin/rbenv init - --no-rehash fish | source

@@ -6,7 +6,6 @@ julia.nanorc
 .gemrc
 ruff.toml
 .golangci.yml
-.spacemacs
 .config/starship.toml
 .config/alacritty/alacritty.yml
 .config/bat/config
