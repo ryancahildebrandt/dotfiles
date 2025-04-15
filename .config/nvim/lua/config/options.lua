@@ -5,3 +5,4 @@
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.shiftround = true
+-- vim.g.lazyvim_picker = "fzf"
