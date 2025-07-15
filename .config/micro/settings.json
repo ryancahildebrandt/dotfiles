@@ -15,7 +15,6 @@
     ],
     "pluginrepos": [],
     "scrollbar": true,
-    "softwrap": true,
     "statusformatl": "$(filename) $(modified)($(line),$(col)) $(status.paste)| ft:$(opt:filetype)",
     "tabhighlight": true
 }

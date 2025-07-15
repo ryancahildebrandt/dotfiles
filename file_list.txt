@@ -25,4 +25,3 @@ ruff.toml
 .config/pipewire/pipewire-pulse.conf
 .config/navi/config.yaml
 .config/yazi/yazi.toml
-.julia/config/startup.jl

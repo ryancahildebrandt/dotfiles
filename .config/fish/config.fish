@@ -52,6 +52,7 @@ alias v="nvim"
 alias h="hx"
 alias e="emacs"
 alias lg="lazygit"
+alias fullup="sudo apt update && sudo apt full-upgrade && sudo apt dist-upgrade && sudo apt autoremove && sudo apt autoclean"
 
 # thefuck
 eval (thefuck --alias fuck | tr '\n' ';')
