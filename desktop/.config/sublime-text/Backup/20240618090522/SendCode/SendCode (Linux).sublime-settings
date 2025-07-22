@@ -1,0 +1,48 @@
+{
+    "prog": "tmux",
+    "auto_expand_line": true,
+    "auto_advance" : true,
+    "auto_advance_non_empty": false,
+    "bracketed_paste_mode": false,
+    "block_start_pattern": "# ?%%|# ?\\+|# In \\[",
+    "block_end_pattern": "# ?%%|# ?\\+|#'|# In \\[",
+
+    "r" : {
+        "prog": "tmux",
+        // turn bracketed_paste_mode on if radian or readline 7.0 is in use
+        "bracketed_paste_mode": false
+    },
+
+    "rmd" : {
+        "prog": "tmux",
+        // turn bracketed_paste_mode on if radian or readline 7.0 is in use
+        "bracketed_paste_mode": false
+    },
+
+    "python" : {
+        "prog": "tmux",
+        "bracketed_paste_mode": true
+    },
+
+    "julia" : {
+        "prog": "tmux",
+        "bracketed_paste_mode": true
+    },
+
+    // the window class of linux terminal
+    // e.g., "gnome-terminal", "gnome-terminal-server", "pantheon-terminal",
+    //       "mate-terminal", "konsole" and "tilix".
+    //       other terminals may work as well.
+    //
+    // run `xprop | grep WM_CLASS` and click the active terminal to identify the terminal class
+    //
+    "linux_terminal": "gnome-terminal"
+
+    // path related settings
+
+    // path to tmux
+    // "tmux": "tmux",
+
+    // path to screen
+    // "screen": "screen"
+}

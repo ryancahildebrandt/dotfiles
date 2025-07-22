@@ -1,0 +1,266 @@
+#-#
+#-# Directives
+#-#
+
+#-# Strings
+
+Directive                          Description
+---------                          -----------
+boolean                            Converts string to boolean (true, false).
+cap_first                          Capita­lizes first word of string.
+capitalize                         Capita­lizes every word in string properly.
+chop_l­ine­break                     Removes line-break from end of string.
+contains (subst­ring)               Checks if string contains substring.
+date, time, datetime               Converts string to date/t­ime­/da­tetime based on *_format.
+ends_with (subst­ring)              Checks if string ends with substring.
+ensure­_en­ds_with (subst­ring)       Returns string with substring appended if not already there.
+ensure­_st­art­s_with (subst­ring)     Same as ensure­_en­ds_­with, but prepended.
+groups[x]                          Returns the returns the regex group from the matches method if it exists.
+html                               Returns the string with html characters parsed to ampersand codes.
+index_of (subst­ring)               Returns the index of the requested substring in string.
+j_string                           Escapes the string for Java String Literals.
+js_string                          Escapes the string for Javascript String Literals.
+json_s­tring                        Escapes the string for JSON String Literals.
+keep_after (subst­ring, flags=­"­")   Returns all text after substring, not including substring.
+keep_b­efore (subst­ring, flags=­"­")  Returns all text before substring, not including substring.
+last_i­ndex_of (subst­ring)          Returns the index of the last occurance of substring.
+left_pad (x, sepera­tor­=" ")        Returns the string with [seper­ator] prepended up to a maximum length.
+length                             The number of characters in the string.
+lower_case                         Returns string in all lower case.
+matches                            Regex Pattern checker.
+number                             The string as a number.
+replace (subst­ring, replace)       Returns all occurances of substring with replace.
+right_pad (x, sepera­tor­=" ")       Same as left_pad, but appended instead.
+remove­_be­ginning (subst­ring)       Returns string with substring removed from the beginning.
+remove­_ending                      Same as remove­_be­gin­ning, except fromt he ending.
+rtf                                Rich Text Format.
+split (subst­ring)                  Split a string at each substring.
+starts­_with                        Same as ends_with, but for string beginning.
+string                             Takes a multi-­value variable and returns just the string parts.
+substring                          Deprec­ated, use string­[x..y].
+trim                               Removes leading and trailing whitespace.
+uncap_­first                        The opposite of cap_first.
+upper_case                         Opposite of lower_case.
+url                                URL Character escaping.
+url_path                           Same as url but doesn't escape slashes.
+word_list                          Returns a sequence of all words in a string.
+xhtml                              Same as html, but for xhtml escaping.
+xml                                Same as hxtml, but different code for '.
+
+
+#-# Numbers
+
+Directive                          Description
+---------                          -----------
+abs                                Absolute Value.
+c                                  Num to String without formatting.
+is_inf­inite                        True if number is floating point infinite.
+is_nan                             True if number is NaN.
+round, floor, ceiling              Rounds to closest, lowest, and highest, respec­tively.
+string.format                      Num to String with optional formatting (number|currency|percent|computer).
+
+
+#-# Date / Time
+
+Directive                          Description
+---------                          -----------
+date                               Returns date only from a datetime value.
+time                               Returns time only from a datetime value.
+datetime                           Returns date and time from a datetime value.
+(date/­tim­e/d­ate­tim­e)_­if_­unknown    Marks a date-like value with specified missing subtype.
+iso_...                            Converts date-like value to specified iso format.
+string.format                      Converts date-like object to string. See freemarker manual for formats.
+
+
+#-# Booleans
+
+Directive                          Description
+---------                          -----------
+c                                  Boolean to String for computer languages.
+string­("st­r1", "­str­­2")             Boolean to String with human-­rea­dable flags ("­str­­1" = true and "­str­­2" = false).
+
+
+#-# Sequences
+
+Directive                          Description
+---------                          -----------
+chunk(x, filler­=null               Splits sequence into multiple sequences of size x. Last chunk.
+first                              Returns the first element of the sequence.
+join(s­epe­rator)                    Concat­onates sequence elements with seperator in between.
+last                               Returns the last element in the sequence.
+reverse                            Returns the sequence in reverse order.
+seq_co­nta­ins­(ne­edle)               Returns true if the squence contains needle.
+seq_in­dex­_of­(ne­edle)               Same as contains, but returns the index of the first element.
+seq_la­st_­ind­ex_­of(­needle)
+size
+sort
+sort_by
+
+
+#-# Nodes (XML)
+
+Directive                          Description
+---------                          -----------
+ancest­ors­(name)                    Returns a sequence of nodes ancestors.
+children                           Returns a sequence of all child nodes.
+node_name                          Returns the node name (directive invoked when node is "­vis­ite­d").
+node_n­ame­space                     Returns namespace string of node.
+node_type                          Returns a string with the node type.
+parent                             Returns the immediate parent node.
+root                               Returns the root node.
+
+
+#-# Hashes
+
+Directive                          Description
+---------                          -----------
+Keys                               A sequence with all the hash keys.
+Values                             A sequence with all the hash values.
+
+
+#-# Misc
+
+Directive                          Description
+---------                          -----------
+byte,double,float,int,long,short   Converts numbers to other types of numbers.
+eval                               Evaluate a string as an FTL expression.
+has_co­ntent                        Returns true if variable exists and isn't empty, false otherwise.
+interpret                          Returns the value of a string interp­reted as FTL code. Sort of like a function.
+is_...[­type]                       Checks if variable is of type [type]. See docs for full list.
+namespace                          Returns macro or function namespace, if any.
+new                                Creates a variable of type class. Usage is var = "­FQD­N"?n­ew(­opt­ions).
+number­_to­_[d­ate­/ti­me/­dat­etime]     Converts a number to date/t­ime­/da­tetime, using the number of seconds since epoch.
+
+
+
+#-#
+#-# Directives reference
+#-#
+
+Directive                          Description
+---------                          -----------
+assign name=value [in nshash]      Creates a variable called name.
+attemp­t/r­ecover                    try/catch.
+compress                           Removes all but one newline character between lines.
+escape x as x?[escape type]        <pr­e> tag for freemarker code.
+flush                              Forces generated output to be written. 99% of the time is not neccessary.
+ftl                                Tells programs that file is an ftl file.
+functi­on/­return                    Similar to a macro, except returns a specific value as denoted by return.
+global                             Makes a global variable. Variable will be exposed as if at data-model level.
+if/els­eif­/else                     Creates an if/els­eif­/else block.
+import path as hash                Imports the library at location path for use in the current ftl file.
+include path                       Includes the file at location path for use in current document.
+list sequence as item              foreach loop.
+local                              Like assign, but creates local variables within macros or functions.
+macro/­nes­ted­/return                Macro outputs a block of code which wraps nested, return works as a break.
+noparse                            <pr­e> tag for ftl.
+nt                                 No trim. Disables whitespace stripping.
+setting name=value                 Modifies parse settings. View full list in the docs page.
+stop [reason]                      Per ftl docs: an emergency brake. Returns reason if set.
+switch­/ca­se/­def­aul­t/break          A regular switch block.
+t, lt, rt                          Trim, left trim, right trim. Ignores whitespace based on tag position used.
+visit/­rec­urs­e/f­allback             Used for parsing trees, usually XML. See the ftl docs for full info.
+
+
+
+#-#
+#-# Examples
+#-#
+
+#-# Include
+
+<#include "/copyright_footer.html">
+
+
+#-# Assignment
+
+# Any object except null can be passed to a variable.
+<#assign countries = model.countries>
+<#assign myString = "String data">
+
+
+#-# If / elseif / else
+
+# Common operators are supported
+&&, ||, !, ==, !=, >, <, >=, <=
+
+# Simple if condition
+<#if user == "jdoe">
+  Hi John Doe!
+</#if>
+
+# Nested if condition
+<#if x == 1>
+  ...
+<#elseif myVar?has_content>
+  ...
+<#else>
+  ...
+</#if>
+
+
+#-# Iterate array
+
+<#list ["red", "green", "blue"] as color>
+  ${color}
+</#list>
+
+<#list countries as country>
+  ${country_index + 1}. ${country}
+</#list>
+
+
+#-# Iterate over hashmap keys
+
+<#list capitalList?keys as key>
+  ${key} = ${capitalList[key]}
+</#list>
+
+<#assign h = {"name":"mouse", "price":50}>
+<#assign keys = h?keys>
+<#list keys as key>
+  ${key} = ${h[key]};
+</#list>
+
+
+#-# Dealing with missing variables
+
+# A non-existent variable and a variable with null value is the same
+<#if model.object.user??>Welcome ${user}</#if>
+<#if model.object.user?has_content>Welcome ${user}</#if>
+
+# If the value is null/empty, replace with a default value
+${user!"Anonymous"}
+${animals.python.price!0}
+
+
+#-# Methods and functions
+
+# The average of 3 and 5
+${avg(3, 5)}
+
+# The average of the price of a python and an elephant
+${avg(animals.python.price, animals.elephant.price)}
+
+# Arithmetical calculations
+(x * 1.5 + 10) / 2 - y % 100
+
+# Comparison
+x == y, x != y, x < y, x > y, x >= y, x <= y
+
+# Logical operations
+!registered && (firstVisit || fromEurope)
+
+
+#-# Call Java Method
+
+${model.name}
+${model.getName()}
+
+
+
+#-#
+#-# References
+#-#
+
+[1] http://freemarker.org/docs/ref.html

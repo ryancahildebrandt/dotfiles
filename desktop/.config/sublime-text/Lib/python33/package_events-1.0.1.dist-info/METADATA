@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: package_events
+Version: 1.0.1
+Summary: Allows Sublime Text packages to emit and listen for events

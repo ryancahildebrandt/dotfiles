@@ -1,0 +1,102 @@
+[
+	{
+		"caption": "AnacondaGO: Show Documentation",
+		"command": "anaconda_go_doc"
+	},
+	{
+		"caption": "AnacondaGO: Show Packages Documentation",
+		"command": "anaconda_go_doc", "args": {"package": true }
+	},
+	{
+		"caption": "AnacondaGO: Implement Interface",
+		"command": "anaconda_go_impl"
+	},
+	{
+		"caption": "AnacondaGO: Goto Definition",
+		"command": "anaconda_go_goto"
+	},
+	{
+		"caption": "AnacondaGO: Get Referrers",
+		"command": "anaconda_go_referrers"
+	},
+	{
+		"caption": "AnacondaGO: Implements",
+		"command": "anaconda_go_implements"
+	},
+	{
+		"caption": "AnacondaGO: Retrieve Channel Information (you must be over the <- symbol)",
+		"command": "anaconda_go_peers"
+	},
+	{
+		"caption": "AnacondaGO: Get Possible Function Callees",
+		"command": "anaconda_go_callees"
+	},
+	{
+		"caption": "AnacondaGO: Get Function Callers",
+		"command": "anaconda_go_callers"
+	},
+	{
+		"caption": "AnacondaGO: Get Call Stack",
+		"command": "anaconda_go_callstack"
+	},
+	{
+		"caption": "AnacondaGO: Dereference Pointer",
+		"command": "anaconda_go_pointsto"
+	},
+	{
+		"caption": "AnacondaGO: Goto Next Function",
+		"command": "anaconda_go_next_func"
+	},
+	{
+		"caption": "AnacondaGO: Goto Prev Function",
+		"command": "anaconda_go_prev_func"
+	},
+	{
+		"caption": "AnacondaGO: Goto Current Function Header",
+		"command": "anaconda_go_enc_func"
+	},
+	{
+		"caption": "AnacondaGO: Browse File Functions",
+		"command": "anaconda_go_explore_file_funcs"
+	},
+	{
+		"caption": "AnacondaGO: Browse File Structs",
+		"command": "anaconda_go_explore_file_structs"
+	},
+	{
+		"caption": "AnacondaGO: Browse File Symbols",
+		"command": "anaconda_go_explore_file_decls"
+	},
+	{
+		"caption": "AnacondaGO: Browse Package Functions",
+		"command": "anaconda_go_explore_package_funcs"
+	},
+	{
+		"caption": "AnacondaGO: Browse Package Structs",
+		"command": "anaconda_go_explore_package_structs"
+	},
+	{
+		"caption": "AnacondaGO: Browse Package Symbols",
+		"command": "anaconda_go_explore_package_decls"
+	},
+	{
+		"caption": "AnacondaGO: Explore Packages",
+		"command": "anaconda_go_explore_packages"
+	},
+	{
+		"caption": "AnacondaGO: Auto Format File",
+		"command": "anaconda_go_format_sync"
+	},
+	{
+		"caption": "AnacondaGO: Analyze Symbol",
+		"command": "anaconda_go_explore_symbol_under_cursor", "args": {"operation": "analyze"}
+	},
+	{
+		"caption": "AnacondaGO: Browse Symbol",
+		"command": "anaconda_go_explore_symbol_under_cursor", "args": {"operation": "browse"}
+	},
+	{
+		"caption": "AnacondaGO: Fill Packages Cache",
+		"command": "anaconda_go_fill_browse"
+	}
+]

@@ -1,0 +1,14 @@
+// Settings in here override those in "LSP-gopls/LSP-gopls.sublime-settings"
+
+{
+	    "gopls.staticcheck": true,
+    "gopls.codelenses": {
+      "gc_details": true,
+      "generate": true,
+      "regenerate_cgo": true,
+      "run_govulncheck": true,
+      "tidy": true,
+      "upgrade_dependency": true,
+      "vendor": true
+    },
+}

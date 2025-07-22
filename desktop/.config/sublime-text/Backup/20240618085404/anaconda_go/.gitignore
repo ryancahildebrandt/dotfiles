@@ -1,0 +1,60 @@
+# Python binaries
+*.py[cod]
+
+# Python Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+var
+sdist
+develop-eggs
+.installed.cfg
+lib64
+
+# installer logs
+pip-log.txt
+
+# Unit test
+.coverage
+.tox
+nosetests.xml
+_trial_temp
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+*.exe
+*.test
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# vim
+*~
+
+# anaGonda binaries and intermediate files
+*.bin
+*.exe
+

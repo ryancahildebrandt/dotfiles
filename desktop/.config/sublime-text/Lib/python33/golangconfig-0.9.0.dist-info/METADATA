@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: golangconfig
+Version: 0.9.0
+Summary: A library for Go environment configuration

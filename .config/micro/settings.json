@@ -2,6 +2,7 @@
     "autosave": 3,
     "colorscheme": "zenburn",
     "diffgutter": true,
+    "eofnewline": false,
     "ftoptions": false,
     "hlsearch": true,
     "ignorecase": false,

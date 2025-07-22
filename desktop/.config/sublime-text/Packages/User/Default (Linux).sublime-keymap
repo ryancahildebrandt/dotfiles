@@ -1,0 +1,4 @@
+[
+	{ "keys": ["alt+b"], "command": "open_conda_repl" },
+	{ "keys": ["ctrl+shift+t"], "command": "open_terminal" },
+]

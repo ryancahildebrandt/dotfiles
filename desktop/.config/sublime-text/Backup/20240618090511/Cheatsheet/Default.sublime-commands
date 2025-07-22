@@ -1,0 +1,174 @@
+[
+  {
+    "caption": "Cheatsheet: ~Refresh local database",
+    "command": "cheatsheet_refresh_local_database"
+  },
+  {
+    "args": {
+      "filename": "ide/eclipse.cheatsheet"
+    },
+    "caption": "Cheatsheet: Eclipse",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "tools/terminal/tmux.cheatsheet"
+    },
+    "caption": "Cheatsheet: tmux",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "code/big-o-complexity.cheatsheet"
+    },
+    "caption": "Cheatsheet: Big O complexity",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "server/protocol/http.cheatsheet"
+    },
+    "caption": "Cheatsheet: HTTP",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "code/language/yaml.cheatsheet"
+    },
+    "caption": "Cheatsheet: Yaml",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "code/language/groovy.cheatsheet"
+    },
+    "caption": "Cheatsheet: Groovy",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "chat/irssi.cheatsheet"
+    },
+    "caption": "Cheatsheet: Irssi",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "ide/vim.cheatsheet"
+    },
+    "caption": "Cheatsheet: vim",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "tools/issue-tracking/jira.cheatsheet"
+    },
+    "caption": "Cheatsheet: JIRA",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "chat/skype.cheatsheet"
+    },
+    "caption": "Cheatsheet: Skype",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "code/language/markdown.cheatsheet"
+    },
+    "caption": "Cheatsheet: Markdown",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "tools/version-control/maven.cheatsheet"
+    },
+    "caption": "Cheatsheet: Maven",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "code/language/assembler.cheatsheet"
+    },
+    "caption": "Cheatsheet: Assembler",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "misc/asciiart.cheatsheet"
+    },
+    "caption": "Cheatsheet: Asciiart",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "server/hadoop.cheatsheet"
+    },
+    "caption": "Cheatsheet: Hadoop",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "tools/build-automation/gradle.cheatsheet"
+    },
+    "caption": "Cheatsheet: Gradle",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "code/language/css.cheatsheet"
+    },
+    "caption": "Cheatsheet: CSS",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "code/language/freemarker.cheatsheet"
+    },
+    "caption": "Cheatsheet: Freemarker",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "tools/version-control/git.cheatsheet"
+    },
+    "caption": "Cheatsheet: git",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "os/ubuntu.cheatsheet"
+    },
+    "caption": "Cheatsheet: Ubuntu",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "code/library/hystrix.cheatsheet"
+    },
+    "caption": "Cheatsheet: Hystrix",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "code/language/bash.cheatsheet"
+    },
+    "caption": "Cheatsheet: Bash",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "code/paradigm/aop.cheatsheet"
+    },
+    "caption": "Cheatsheet: Aspect Oriented Programming (AOP)",
+    "command": "cheatsheet_open"
+  },
+  {
+    "args": {
+      "filename": "code/language/cmd.cheatsheet"
+    },
+    "caption": "Cheatsheet: Windows Command Line (CMD)",
+    "command": "cheatsheet_open"
+  }
+]

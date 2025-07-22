@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: portalockerfile
+Version: 3999
+Summary: An extended version of portalocker to lock files in Python using the with statement

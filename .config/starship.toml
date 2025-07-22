@@ -118,4 +118,4 @@ stashed = "⧉ "
 
 [conda] 
 symbol = " "#"conda" 
-format = "[ $symbol$environment ](bold bg:#81a1c1)" 
+format = "[$symbol$environment](bold bg:#81a1c1) " 
