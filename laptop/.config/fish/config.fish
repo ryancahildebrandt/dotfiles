@@ -3,7 +3,6 @@
 # Fish options 
 zoxide init --cmd j fish | source
 starship init fish | source
-navi widget fish | source
 
 # Custom aliases
 alias lx="ls -1AFhs --color --group-directories-first"
@@ -27,9 +26,6 @@ alias nxs="sudo nixos-rebuild --upgrade switch"
 alias nxb="sudo nixos-rebuild --upgrade boot"
 alias nxt="sudo nixos-rebuild --upgrade test"
 alias nxd="sudo nix-collect-garbage -d"
-
-# thefuck
-eval (thefuck --alias fuck | tr '\n' ';')
 
 #external commands/config
 source ~/.config/fish/private_commands.fish

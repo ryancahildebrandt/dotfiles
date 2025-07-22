@@ -3,6 +3,7 @@
 	boot.loader.systemd-boot.enable = true;
 	boot.loader.efi.canTouchEfiVariables = true;
 	boot.loader.grub.device = "/dev/sda";
+	boot.kernelParams = [ "intel_pstate=active" ];
 
 	networking.hostName = "nixos";
 	networking.networkmanager.enable = true;
@@ -10,11 +11,12 @@
 	time.timeZone = "America/New_York";
 	i18n.defaultLocale = "en_US.UTF-8";
 	i18n.inputMethod = {
-		enabled = "fcitx5";
+		type = "fcitx5";
+		enable = true;
 		fcitx5.addons = with pkgs; [
 			fcitx5-mozc
 			fcitx5-gtk
-			];
+		];
 	};
 	i18n.extraLocaleSettings = {
 		LC_ADDRESS = "en_US.UTF-8";
@@ -35,8 +37,7 @@
 		openFirewall = true;
 	};
 
-	sound.enable = true;
-	hardware.pulseaudio.enable = false;
+	services.pulseaudio.enable = false;
 	security.rtkit.enable = true;
 	services.pipewire = {
 		enable = true;

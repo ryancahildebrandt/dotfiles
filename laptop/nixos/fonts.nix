@@ -14,8 +14,7 @@ in
 {
 	fonts.enableDefaultPackages = true;
 	fonts.packages = with pkgs; [
-		nerdfonts
-		_3270font
+		nerd-fonts._3270
 		cherry
 		eunomia
 		google-fonts
@@ -26,12 +25,12 @@ in
 		kode-mono
 		lato
 		luculent
-		maple-mono-NF
-		martian-mono
+		maple-mono.NF
+		nerd-fonts.martian-mono
 		miracode
 		mno16
 		monaspace
-		mononoki
+		nerd-fonts.mononoki
 		noto-fonts-cjk-sans
 		noto-fonts-cjk-serif
 		open-fonts
@@ -45,7 +44,7 @@ in
 		tamsyn
 		typodermic-public-domain
 		undefined-medium
-		victor-mono
+		nerd-fonts.victor-mono
 
 		orbit-mono
 		departure-mono

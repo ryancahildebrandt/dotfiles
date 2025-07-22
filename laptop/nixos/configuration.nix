@@ -3,10 +3,15 @@
 	imports = [
 		./hardware-configuration.nix
 		./users.nix
+		./packages.nix
 		./system.nix
-		./desktop.nix
+		./desktop_plasma.nix
+		# ./desktop_deepin.nix
+		# ./desktop_pantheon.nix
 		./fonts.nix
 		];
+
+  	nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
 	# This value determines the NixOS release from which the default
 	# settings for stateful data, like file locations and database versions
