@@ -1,0 +1,65 @@
+{
+	"clone_file_count":
+	[
+		"Duplicate Window!"
+	],
+	"file_type":
+	[
+		"Multilingual (Use 10 kinds of language syntax)",
+		"Multibilingual (Use 20 kinds of language syntax)",
+		"Multitrilingual (Use 30 kinds of language syntax)",
+		"Multiquadrilingual (Use 40 kinds of language syntax)",
+	],
+	"filename":
+	[
+		"new file contains 'bar' in filename"
+	],
+	"load_count":
+	[
+		"Helload World!",
+		"Load 10 times!",
+		"Load 100 times!",
+		"Load 300 times!",
+		"Load 500 times!",
+		"Load 1000 times!",
+	],
+	"new_file_count":
+	[
+		"Hello World!",
+		"Create new file 10 times!",
+		"Create new file 100 times!",
+		"Create new file 300 times!",
+		"Create new file 500 times!",
+		"Create new file 1000 times!"
+	],
+	"save_count":
+	[
+		"Hello Save World!",
+		"Save 10 times!",
+		"Save 100 times!",
+		"Save 300 times!",
+		"Save 500 times!",
+		"Save 1000 times!",
+		"Save 10000 times!",
+	],
+	"selector_count":
+	[
+		"multi selector!",
+		"select 15 place one time",
+	],
+	"unlocked_titles":
+	[
+		"save_count",
+		"new_file_count",
+		"load_count",
+		"clone_file_count",
+		"filename",
+		"file_type",
+		"selector_count",
+		"view_achievement_count",
+	],
+	"view_achievement_count":
+	[
+		"Checking!"
+	],
+}

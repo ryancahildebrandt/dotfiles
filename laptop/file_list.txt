@@ -1,0 +1,15 @@
+.nanorc
+.tmux.conf
+.duckdbrc
+.zshrc
+.config/kglobalshortcutsrc
+.config/starship.toml
+.config/alacritty/alacritty.toml
+.config/bat/config
+.config/fish/config.fish
+.config/gh/config.yml
+.config/micro/settings.json
+.config/neofetch/config.conf
+.config/fzf/fzf_conf.fish
+.config/navi/config.yaml
+.config/yazi/yazi.toml
