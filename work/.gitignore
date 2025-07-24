@@ -1,0 +1,15 @@
+sublime/Theme\ -\ Monokai\ Pro.sublime-settings
+sublime/Theme - Monokai Pro/
+.config/sublime-text/Lib
+.config/sublime-text/Local
+.config/sublime-text/Packages
+.config/sublime-text/Backup
+.config/sublime-text/Installed*
+.config/sublime-text/Lib
+*~
+*history*
+*History*
+*HISTORY*
+*license*
+*License*
+*LICENSE*
