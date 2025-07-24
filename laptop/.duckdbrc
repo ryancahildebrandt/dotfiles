@@ -1,0 +1,11 @@
+.prompt "󰇥 "
+.changes on
+.headers on
+.highlight on
+.echo off
+INSTALL 'autocomplete'; LOAD 'autocomplete';
+INSTALL 'fts'; LOAD 'fts';
+INSTALL 'httpfs'; LOAD 'httpfs';
+INSTALL 'json'; LOAD 'json';
+INSTALL 'parquet'; LOAD 'parquet';
+

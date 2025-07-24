@@ -39,8 +39,14 @@
 	"bold_folder_labels": true,
 	"color_scheme": "Mariana.sublime-color-scheme",
 	"draw_white_space": "all",
+<<<<<<<< HEAD:desktop/.config/sublime-text/Packages/User/Preferences.sublime-settings
 	"index_files": false,
 	"font_face": "VictorMono Nerd Font Medium",
+========
+	//"font_face": "Fira Code",
+	"font_face": "Victor Mono",
+	"tab_size" : 4,
+>>>>>>>> laptop:laptop/sublime/Preferences.sublime-settings
 	"font_options":
 	[
 		"cv06",
@@ -77,6 +83,7 @@
 	[
 		80
 	],
+<<<<<<<< HEAD:desktop/.config/sublime-text/Packages/User/Preferences.sublime-settings
 	"theme": "Monokai Pro (Filter Octagon).sublime-theme",
 	"auto_complete_triggers":
 	[
@@ -89,4 +96,9 @@
 			"selector": "text.tex.latex",
 		}
 	],
+========
+	"theme": "Monokai Pro (Filter Ristretto).sublime-theme",
+	"theme_agila_active_tab_entry_pink": true,
+	"index_files": true,
+>>>>>>>> laptop:laptop/sublime/Preferences.sublime-settings
 }

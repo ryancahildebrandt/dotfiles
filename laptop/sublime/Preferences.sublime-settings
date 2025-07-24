@@ -1,0 +1,94 @@
+{
+	"added_words":
+	[
+		"adposition",
+		"",
+		"reachability",
+		"dendrogram",
+		"datapoints",
+		"centroid",
+		"gaussian",
+		"datapoint",
+		"dimensionality",
+		"embeddings",
+		"interpretability",
+		"Preprocessing",
+		"Lowercasing",
+		"lemmatization",
+		"lemmatizers",
+		"stemmers",
+		"preprocessing",
+		"vectorizer",
+		"tf",
+		"idf",
+		"pretrained",
+		"Agglomerative",
+		"centroids",
+		"subclusters",
+		"subcluster",
+		"agglomerative",
+		"Lindenstrauss",
+		"probabilistically",
+		"walkthrough",
+		"dataset",
+		"alphanumerics",
+		"parsable",
+		"interpretable",
+		"tradeoff",
+	],
+	"bold_folder_labels": true,
+	"color_scheme": "Monokai Pro (Filter Octagon).sublime-color-scheme",
+	"draw_white_space": "all",
+<<<<<<<< HEAD:desktop/.config/sublime-text/Packages/User/Preferences.sublime-settings
+	"index_files": false,
+	"font_face": "VictorMono Nerd Font Medium",
+========
+	//"font_face": "Fira Code",
+	"font_face": "Victor Mono",
+	"tab_size" : 4,
+>>>>>>>> laptop:laptop/sublime/Preferences.sublime-settings
+	"font_options":
+	[
+		"cv06",
+		"ss01",
+		"cv11",
+		"onum",
+		"ss04",
+		"cv18",
+		"cv31",
+		"cv29",
+		"cv30",
+		"ss01",
+		"dlig", // ligatures from dlig
+		"gray_antialias",
+		"subpixel_antialias"
+	],
+	"font_size": 12,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"rulers":
+	[
+		80
+	],
+<<<<<<<< HEAD:desktop/.config/sublime-text/Packages/User/Preferences.sublime-settings
+	"theme": "Monokai Pro (Filter Octagon).sublime-theme",
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ".",
+			"selector": "source.go",
+		},
+		{
+			"characters": "\\",
+			"selector": "text.tex.latex",
+		}
+	],
+========
+	"theme": "Monokai Pro (Filter Ristretto).sublime-theme",
+	"theme_agila_active_tab_entry_pink": true,
+	"index_files": true,
+>>>>>>>> laptop:laptop/sublime/Preferences.sublime-settings
+}

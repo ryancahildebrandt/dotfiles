@@ -43,6 +43,7 @@
 		"Packages/Cheatsheet/cheatsheet.tmLanguage",
 		"Packages/TOML/TOML.sublime-syntax",
 		"Packages/zzz A File Icon zzz/aliases/Plain Text (INI).sublime-syntax",
+<<<<<<<< HEAD:desktop/.config/sublime-text/Packages/User/achievement.sublime-settings
 		"Packages/Markdown/Markdown.sublime-syntax",
 		"Packages/Go/Go.sublime-syntax",
 		"Packages/PlantUmlDiagrams/Syntaxes/Diagram.sublime-syntax",
@@ -51,4 +52,11 @@
 	"new_file_count": 3999,
 	"save_count": 12813,
 	"view_achievement_count": 1,
+========
+		"Packages/Ruby/Ruby.sublime-syntax",
+	],
+	"load_count": 1739,
+	"new_file_count": 3943,
+	"save_count": 12710,
+>>>>>>>> laptop:laptop/sublime/achievement.sublime-settings
 }

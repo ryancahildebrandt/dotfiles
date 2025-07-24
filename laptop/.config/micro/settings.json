@@ -1,0 +1,28 @@
+{
+    "autosave": 3,
+<<<<<<<< HEAD:desktop/.config/micro/settings.json
+    "colorscheme": "zenburn",
+========
+    "colorscheme": "gotham",
+>>>>>>>> laptop:laptop/.config/micro/settings.json
+    "diffgutter": true,
+    "eofnewline": false,
+    "ftoptions": false,
+    "hlsearch": true,
+    "ignorecase": false,
+    "initlua": true,
+<<<<<<<< HEAD:desktop/.config/micro/settings.json
+    "lsp.autocompleteDetails": true,
+    "lsp.ignoreTriggerCharacters": "completion,signature",
+    "lsp.server": "python=pyls,go=gopls,markdown=deno lsp,json=deno lsp",
+========
+>>>>>>>> laptop:laptop/.config/micro/settings.json
+    "mkparents": true,
+    "pluginchannels": [
+        "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"
+    ],
+    "pluginrepos": [],
+    "scrollbar": true,
+    "statusformatl": "$(filename) $(modified)($(line),$(col)) $(status.paste)| ft:$(opt:filetype)",
+    "tabhighlight": true
+}

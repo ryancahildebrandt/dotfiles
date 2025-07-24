@@ -1,0 +1,138 @@
+# ~/.config/starship.toml
+
+#prompt
+#format = """ 
+#[╭────────────🞅 ](green bold)$username$hostname$status$python$julia$rlang$golang\
+#[│](green bold)$directory$git_branch$git_commit$git_status\
+#[╰ ](green bold)$character\
+#""" 
+format = """
+[](#2e3440)\
+$username\
+$hostname\
+$status\
+[](bg:#434c5e fg:#2e3440)\
+$directory\
+[](fg:#434c5e bg:#344d80)\
+$git_branch\
+$git_commit\
+$git_status\
+[](fg:#344d80 bg:#5e81ac)\
+$golang\
+$julia\
+$python\
+$rlang\
+$ruby\
+[](fg:#5e81ac bg:#81a1c1)\
+$conda\
+[](fg:#81a1c1)\
+\n
+<<<<<<<< HEAD:desktop/.config/starship.toml
+$character\
+========
+$character
+>>>>>>>> laptop:laptop/.config/starship.toml
+"""
+#[](fg:#81a1c1 bg:#d8dee9)\
+#[ ](fg:#d8dee9)\
+
+command_timeout = 2000
+
+[character] 
+success_symbol = "[ ❭](#eceff4)" 
+error_symbol = "[!❭](#bf616a) "  
+
+#languages
+[python]
+<<<<<<<< HEAD:desktop/.config/starship.toml
+symbol = " "#py
+========
+symbol = "py "#
+>>>>>>>> laptop:laptop/.config/starship.toml
+style = "bg:#5e81ac italic"
+format = "[$symbol:$virtualenv:$version]($style)"
+
+[julia] 
+symbol = "jl "#
+style = "bg:#5e81ac italic"
+format = "[$symbol:$version]($style)"
+
+[golang] 
+symbol = "go "#󰟓
+style = "bg:#5e81ac italic"
+format = "[$symbol:$version]($style)"
+
+[rlang] 
+<<<<<<<< HEAD:desktop/.config/starship.toml
+symbol = "R "#r
+style = "bg:#5e81ac italic"
+format = "[$symbol:$version]($style)"
+
+[ruby]
+symbol = " "#rb
+========
+symbol = "r "#
+style = "bg:#5e81ac italic"
+format = "[$symbol:$version]($style)"
+
+[ruby] 
+symbol = "rb "#
+>>>>>>>> laptop:laptop/.config/starship.toml
+style = "bg:#5e81ac italic"
+format = "[$symbol:$version]($style)"
+
+#system info
+[username] 
+style_user = "bg:#2e3440 italic" 
+style_root = "bg:#2e3440 italic" 
+format = "[$user]($style)" 
+#show_always = true
+
+[hostname] 
+ssh_only = true 
+style = "bg:#2e3440 italic"
+format = "[@$hostname]($style)" 
+
+[directory] 
+truncate_to_repo = true
+style = "bg:#434c5e"
+truncation_length = 3
+truncation_symbol = "+/"
+format = "[ $path ]($style)"
+
+[status] 
+disabled = true
+style = "bg:#434c5e bold"
+#format = "[\[$status - $common_meaning\]]($style)"
+
+[cmd_duration]
+min_time = 1000
+style = "bg:#d8dee9"
+format = "took [$duration]($style)"
+
+#environments
+[git_branch] 
+symbol = " "#⎇ 
+style = "bg:#344d80"
+format = "[($symbol$branch)]($style)" 
+
+[git_commit]
+commit_hash_length = 8
+style = "bg:#344d80 dimmed"
+
+[git_status]
+format = '([\[ $conflicted$deleted$renamed$modified$staged$behind\]](bg:#344d80 dimmed))' 
+conflicted = "⨉ "
+ahead = "${count} ahead "
+behind = "${count} behind "
+diverged = "ahead by ${ahead_count} behind by ${behind_count} "
+untracked = "${count} untracked "
+modified = "${count} modified "
+staged = "${count} staged "
+renamed = " ${count} renamed "
+deleted = "${count} deleted "
+stashed = "⧉ "
+
+[conda] 
+symbol = " "#"conda" 
+format = "[$symbol$environment](bold bg:#81a1c1) " 

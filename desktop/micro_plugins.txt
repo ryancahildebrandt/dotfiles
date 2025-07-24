@@ -2,7 +2,7 @@ The following plugins are currently installed:
 yapf (1.0.0)
 cheat (0.0.0-unknown)
 detectindent (1.1.0)
-filemanager (3.5.0)
+filemanager (3.5.1)
 fish (0.2.0)
 fzf (1.1.1)
 joinLines (1.1.6)
