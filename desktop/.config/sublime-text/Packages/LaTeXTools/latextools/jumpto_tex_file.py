@@ -36,7 +36,10 @@ BIB_REG = re.compile(
     re.UNICODE,
 )
 
-IMAGE_REG = re.compile(r"\\includegraphics(?:\[[^\]]*\])?\{(?P<file>[^\}]+)\}", re.UNICODE)
+IMAGE_REG = re.compile(
+    r"\\includegraphics(?:<[^>]*>)?(?:\[[^\]]*\])?\{(?P<file>[^\}]+)\}"
+    , re.UNICODE
+)
 
 
 def _jumpto_tex_file(
@@ -219,15 +222,16 @@ def _split_bib_args(bib_args):
     return file_names
 
 
-class LatextoolsJumptoFileCommand(sublime_plugin.WindowCommand):
+class LatextoolsJumptoFileCommand(sublime_plugin.TextCommand):
 
-    def run(self, auto_create_missing_folders=True, auto_insert_root=True, position=None):
-        window = self.window
-        view = window.active_view()
+    def run(self, edit, auto_create_missing_folders=True, auto_insert_root=True, position=None):
+        view = self.view
         tex_root = get_tex_root(view)
         if not tex_root:
             sublime.status_message("Save your current file first")
             return
+
+        window = view.window()
 
         if position is None:
             selections = list(view.sel())

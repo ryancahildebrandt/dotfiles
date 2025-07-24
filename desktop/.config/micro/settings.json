@@ -2,7 +2,6 @@
     "autosave": 3,
     "colorscheme": "zenburn",
     "diffgutter": true,
-    "eofnewline": false,
     "ftoptions": false,
     "hlsearch": true,
     "ignorecase": false,
@@ -10,6 +9,7 @@
     "lsp.autocompleteDetails": true,
     "lsp.ignoreTriggerCharacters": "completion,signature",
     "lsp.server": "python=pyls,go=gopls,markdown=deno lsp,json=deno lsp",
+    "lsp.formatOnSave": true,
     "mkparents": true,
     "pluginchannels": [
         "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"

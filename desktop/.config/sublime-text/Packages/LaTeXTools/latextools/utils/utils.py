@@ -1,5 +1,6 @@
 import codecs
 import itertools
+import os
 import sys
 import threading
 import time
@@ -28,19 +29,17 @@ def run_after_loading(view, func):
 
 
 def open_and_select_region(view, file_name, region):
-    new_view = view
 
-    def select_label():
-        new_view.sel().clear()
-        new_view.sel().add(region)
-        new_view.show(region)
+    def select_label(view):
+        view.sel().clear()
+        view.sel().add(region)
+        view.show(region)
 
-    # TODO better compare?
-    if view.file_name() != file_name:
+    if not os.path.samefile(view.file_name(), file_name):
         new_view = view.window().open_file(file_name)
-        run_after_loading(new_view, select_label)
+        run_after_loading(new_view, lambda: select_label(new_view))
     else:
-        select_label()
+        select_label(view)
 
 
 def _read_file_content(file_name, encoding="utf8", ignore=True):

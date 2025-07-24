@@ -37,7 +37,7 @@
 		"tradeoff",
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Monokai Pro (Filter Octagon).sublime-color-scheme",
+	"color_scheme": "Mariana.sublime-color-scheme",
 	"draw_white_space": "all",
 	"index_files": false,
 	"font_face": "VictorMono Nerd Font Medium",
@@ -61,6 +61,16 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"BracketHighlighter",
+		"LaTeXTools",
+		"LSP-gopls",
+		"LSP-json",
+		"MarkdownEditing",
+		"SideBarEnhancements",
+		"SideBarTools",
+		"SublimeLinter",
+		"Terminal",
+		"Theme - Monokai Pro",
 		"Vintage",
 	],
 	"rulers":

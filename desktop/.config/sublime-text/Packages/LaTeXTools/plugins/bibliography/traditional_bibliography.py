@@ -54,7 +54,7 @@ class TraditionalBibliographyPlugin(LaTeXToolsPlugin):
                 with open(bibfname, "r", encoding="utf-8", errors="ignore", newline="\n") as bibf:
                     bib_entries = []
                     entry = {}
-                    for line in bibf.readline():
+                    for line in bibf.readlines():
                         line = line.strip()
                         # Let's get rid of irrelevant lines first
                         if line == "" or line[0] == "%":
@@ -95,16 +95,15 @@ class TraditionalBibliographyPlugin(LaTeXToolsPlugin):
                                     .replace("}", "")
                                 )
                             entry[key] = value
-                        continue
+
                     # at the end, we have a single record
                     if "keyword" in entry:
                         bib_entries.append(entry)
 
-                    logger.info("Loaded %d bibitems", len(bib_data))
+                    logger.info("Loaded %d bibitems", len(bib_entries))
 
                     try:
-                        bib_cache.set(bib_entries)
-                        fmt_entries = bib_cache.get()
+                        fmt_entries = bib_cache.set(bib_entries)
                         entries.extend(fmt_entries)
                     except Exception:
                         traceback.print_exc()

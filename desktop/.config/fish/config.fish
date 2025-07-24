@@ -3,7 +3,6 @@
 # Fish options 
 zoxide init --cmd j fish | source
 starship init fish | source
-<<<<<<< HEAD
 navi widget fish | source
 fish_add_path ~/julia/bin ~/.juliaup/bin ~/.local/bin ~/.local/share ~/.local/share/gem/ruby ~/.cargo/bin ~/exercism/bin ~/.local/bin/qobuz-dl /root/.cargo/bin ~/go/bin ~/helix /usr/bin/ruby /usr/bin/npm /usr/bin/node
 set -U fish_greeting ""
@@ -25,32 +24,6 @@ alias ee="exa -GlFa --icons --group-directories-first"
 alias bat="batcat"
 alias gs="git status"
 alias sf="source ~/.config/fish/config.fish"
-=======
-fish_add_path ~/miniconda3/bin ~/julia/bin ~/.juliaup/bin
-set -U fish_greeting "
-   °
-    O     /`·.¸
-  0      /¸...¸`:·
-   o ¸.·´  ¸   `·.¸.·´)
-    : © ):´;      ¸  {
-     `·.¸ `·  ¸.·´\`·¸)
-         `\\´´\¸.·´
-
-〜　フ　ィ　ッ　シ　ュ　タ　イ　ム　〜
-
-"
-
-# Custom aliases
-alias lx="ls -1AFhs --color --group-directories-first" 
-alias nx="natls -gln" 
-#alias bat="batcat" 
-alias kboff="xinput float 10" 
-alias kbon="xinput reattach 10 3" 
-alias nomachine="/usr/NX/bin/nxplayer" 
-alias mouse_reset="sudo rmmod psmouse; sudo modprobe psmouse" 
-alias gs="git status" 
-alias sf="source ~/.config/fish/config.fish" 
->>>>>>> 31ebcd35c395be8e7745fe90e38cb7d372f9b33d
 alias gss="find . -name .git -type d -execdir sh -c 'pwd ;git status; echo "------------"; echo' \;"
 alias gsp="find . -name .git -type d -execdir sh -c 'pwd ;git pull; echo "------------"; echo' \;"
 alias cbx="cbonsai -li --time .1 --life 50 --leaf {あ,い,う,え,お}"
@@ -81,28 +54,13 @@ alias e="emacs"
 alias lg="lazygit"
 alias fullup="sudo apt update && sudo apt full-upgrade && sudo apt dist-upgrade && sudo apt autoremove && sudo apt autoclean"
 
-<<<<<<< HEAD
 # thefuck
 eval (thefuck --alias fuck | tr '\n' ';')
-=======
-# >>> conda initialize >>> 
-# !! Contents within this block are managed by 'conda init' !! 
-eval /home/ryan/miniconda3/bin/conda "shell.fish" "hook" $argv | source 
-# <<< conda initialize <<< 
-conda deactivate
-
-#autojump
-if test -f /home/ryan/.autojump/share/autojump/autojump.fish; . /home/ryan/.autojump/share/autojump/autojump.fish; end
->>>>>>> 31ebcd35c395be8e7745fe90e38cb7d372f9b33d
 
 #external commands/config
 source ~/.config/fish/private_commands.fish
-source ~/.config/nnn/nnn_conf.fish
 source ~/.config/fzf/fzf_conf.fish
-source ~/github/dotfiles/blanks/commands.fish
-<<<<<<< HEAD
+source ~/github/dotfiles/desktop/blanks/commands.fish
 
 # Added by `rbenv init` on Tue Mar 25 08:56:02 PM EDT 2025
 status --is-interactive; and ~/.rbenv/bin/rbenv init - --no-rehash fish | source
-=======
->>>>>>> 31ebcd35c395be8e7745fe90e38cb7d372f9b33d
