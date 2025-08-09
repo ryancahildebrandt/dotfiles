@@ -9,3 +9,4 @@ ruff.toml
 .config/micro/settings.json
 .config/fzf/fzf_conf.fish
 .config/yazi/yazi.toml
+.config/zellij/config.kdl
