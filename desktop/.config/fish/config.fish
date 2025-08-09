@@ -52,6 +52,7 @@ alias h="hx"
 alias e="emacs"
 alias lg="lazygit"
 alias fullup="sudo apt update && sudo apt full-upgrade && sudo apt dist-upgrade && sudo apt autoremove && sudo apt autoclean"
+alias z="zellij"
 
 #external commands/config
 source ~/.config/fish/private_commands.fish
