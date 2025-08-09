@@ -27,11 +27,7 @@ $ruby\
 $conda\
 [](fg:#81a1c1)\
 \n
-<<<<<<<< HEAD:desktop/.config/starship.toml
 $character\
-========
-$character
->>>>>>>> laptop:laptop/.config/starship.toml
 """
 #[](fg:#81a1c1 bg:#d8dee9)\
 #[ ](fg:#d8dee9)\
@@ -44,11 +40,7 @@ error_symbol = "[!❭](#bf616a) "
 
 #languages
 [python]
-<<<<<<<< HEAD:desktop/.config/starship.toml
 symbol = " "#py
-========
-symbol = "py "#
->>>>>>>> laptop:laptop/.config/starship.toml
 style = "bg:#5e81ac italic"
 format = "[$symbol:$virtualenv:$version]($style)"
 
@@ -63,21 +55,12 @@ style = "bg:#5e81ac italic"
 format = "[$symbol:$version]($style)"
 
 [rlang] 
-<<<<<<<< HEAD:desktop/.config/starship.toml
 symbol = "R "#r
 style = "bg:#5e81ac italic"
 format = "[$symbol:$version]($style)"
 
 [ruby]
 symbol = " "#rb
-========
-symbol = "r "#
-style = "bg:#5e81ac italic"
-format = "[$symbol:$version]($style)"
-
-[ruby] 
-symbol = "rb "#
->>>>>>>> laptop:laptop/.config/starship.toml
 style = "bg:#5e81ac italic"
 format = "[$symbol:$version]($style)"
 

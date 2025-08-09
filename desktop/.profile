@@ -1,25 +1,30 @@
-export QT_QPA_PLATFORMTHEME="qt5ct"
-export EDITOR=/usr/bin/micro
-export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
-# fix "xdg-open fork-bomb" export your preferred browser from here
-export BROWSER=/usr/bin/firefox
-export PATH=/home/ryan/miniconda3/condabin:/home/ryan/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:~/.config/rofi/bin:~/.local/bin:home/ryan/julia/bin
-export VISUAL=/usr/bin/subl
+# ~/.profile: executed by the command interpreter for login shells.
+# This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
+# exists.
+# see /usr/share/doc/bash/examples/startup-files for examples.
+# the files are located in the bash-doc package.
 
+# the default umask is set in /etc/profile; for setting the umask
+# for ssh logins, install and configure the libpam-umask package.
+#umask 022
 
+# if running bash
+if [ -n "$BASH_VERSION" ]; then
+    # include .bashrc if it exists
+    if [ -f "$HOME/.bashrc" ]; then
+	. "$HOME/.bashrc"
+    fi
+fi
 
-# >>> juliaup initialize >>>
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
 
-# !! Contents within this block are managed by juliaup !!
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
 
-case ":$PATH:" in
-    *:/home/ryan/.juliaup/bin:*)
-        ;;
-
-    *)
-        export PATH=/home/ryan/.juliaup/bin${PATH:+:${PATH}}
-        ;;
-esac
-
-# <<< juliaup initialize <<<
+. "$HOME/.local/bin/env"
 . "$HOME/.cargo/env"

@@ -3,7 +3,6 @@
 # Fish options 
 zoxide init --cmd j fish | source
 starship init fish | source
-navi widget fish | source
 fish_add_path ~/julia/bin ~/.juliaup/bin ~/.local/bin ~/.local/share ~/.local/share/gem/ruby ~/.cargo/bin ~/exercism/bin ~/.local/bin/qobuz-dl /root/.cargo/bin ~/go/bin ~/helix /usr/bin/ruby /usr/bin/npm /usr/bin/node
 set -U fish_greeting ""
 # °
@@ -54,13 +53,7 @@ alias e="emacs"
 alias lg="lazygit"
 alias fullup="sudo apt update && sudo apt full-upgrade && sudo apt dist-upgrade && sudo apt autoremove && sudo apt autoclean"
 
-# thefuck
-eval (thefuck --alias fuck | tr '\n' ';')
-
 #external commands/config
 source ~/.config/fish/private_commands.fish
 source ~/.config/fzf/fzf_conf.fish
 source ~/github/dotfiles/desktop/blanks/commands.fish
-
-# Added by `rbenv init` on Tue Mar 25 08:56:02 PM EDT 2025
-status --is-interactive; and ~/.rbenv/bin/rbenv init - --no-rehash fish | source

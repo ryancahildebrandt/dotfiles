@@ -25,3 +25,4 @@ ruff.toml
 .config/pipewire/pipewire-pulse.conf
 .config/navi/config.yaml
 .config/yazi/yazi.toml
+.config/zellij/config.kdl
