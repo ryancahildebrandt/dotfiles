@@ -26,6 +26,7 @@ alias nxs="sudo nixos-rebuild --upgrade switch"
 alias nxb="sudo nixos-rebuild --upgrade boot"
 alias nxt="sudo nixos-rebuild --upgrade test"
 alias nxd="sudo nix-collect-garbage -d"
+alias z="zellij"
 
 #external commands/config
 source ~/.config/fish/private_commands.fish
