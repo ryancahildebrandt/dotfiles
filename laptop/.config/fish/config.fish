@@ -31,4 +31,4 @@ alias z="zellij"
 #external commands/config
 source ~/.config/fish/private_commands.fish
 source ~/.config/fzf/fzf_conf.fish
-source ~/github/dotfiles/blanks/commands.fish
+source ~/github/dotfiles/laptop/blanks/commands.fish

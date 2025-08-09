@@ -8,6 +8,7 @@
 		./desktop_plasma.nix
 		# ./desktop_deepin.nix
 		# ./desktop_pantheon.nix
+		# ./desktop_xfce.nix
 		./fonts.nix
 		];
 

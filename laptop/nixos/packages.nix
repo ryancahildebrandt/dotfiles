@@ -1,6 +1,7 @@
 {config, pkgs, ...}:
 {
 	environment.systemPackages = with pkgs; [
+		alacritty
 		bash
 		bat
 		chromium
@@ -11,7 +12,6 @@
 		gawk
 		gnused
 		gnugrep
-		ghostty
 		jq
 		kdePackages.falkon
 		librewolf
@@ -27,12 +27,13 @@
 		sublime4
 		unzip
 		ventoy-full
-		vivaldi
+		qutebrowser
 		wget
 		yazi
 		yubioath-flutter
 		yubico-pam
 		zoxide
+		zellij
 		zsh
 	];
 
