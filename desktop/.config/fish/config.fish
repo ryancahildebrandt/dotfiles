@@ -3,7 +3,7 @@
 # Fish options 
 zoxide init --cmd j fish | source
 starship init fish | source
-fish_add_path ~/julia/bin ~/.juliaup/bin ~/.local/bin ~/.local/share ~/.local/share/gem/ruby ~/.cargo/bin ~/exercism/bin ~/.local/bin/qobuz-dl /root/.cargo/bin ~/go/bin ~/helix /usr/bin/ruby /usr/bin/npm /usr/bin/node
+fish_add_path ~/julia/bin ~/.juliaup/bin ~/.local/bin ~/.local/share ~/.local/share/gem/ruby ~/.cargo/bin ~/exercism/bin ~/.local/bin/qobuz-dl /root/.cargo/bin ~/go/bin /usr/bin/ruby /usr/bin/npm /usr/bin/node ~/.rbenv/bin
 set -U fish_greeting ""
 # °
 # O     /`·.¸
@@ -58,3 +58,6 @@ alias z="zellij"
 source ~/.config/fish/private_commands.fish
 source ~/.config/fzf/fzf_conf.fish
 source ~/github/dotfiles/desktop/blanks/commands.fish
+
+# Added by `rbenv init` on Thu Aug 14 07:39:25 PM EDT 2025
+status --is-interactive; and ~/.rbenv/bin/rbenv init - --no-rehash fish | source
