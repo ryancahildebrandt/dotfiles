@@ -44,12 +44,8 @@ alias rc="ruff check"
 alias neofetch="macchina"
 alias ff="fzf"
 alias fd="fdfind"
-alias y="yazi"
-alias uva="source .venv/bin/activate.fish"
-alias uvd="deactivate"
 alias v="nvim"
 alias h="hx"
-alias e="emacs"
 alias lg="lazygit"
 alias fullup="sudo apt update && sudo apt full-upgrade && sudo apt dist-upgrade && sudo apt autoremove && sudo apt autoclean"
 alias z="zellij"
@@ -58,6 +54,7 @@ alias z="zellij"
 source ~/.config/fish/private_commands.fish
 source ~/.config/fzf/fzf_conf.fish
 source ~/github/dotfiles/desktop/blanks/commands.fish
+source ~/.config/yazi/wrapper.fish
 
 # Added by `rbenv init` on Thu Aug 14 07:39:25 PM EDT 2025
 status --is-interactive; and ~/.rbenv/bin/rbenv init - --no-rehash fish | source
