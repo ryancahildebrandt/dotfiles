@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\Delta]]></content>
-	<tabTrigger>D</tabTrigger>
-	<scope>text.tex.latex meta.environment.math</scope>
-	<description>\Delta</description>
-</snippet>

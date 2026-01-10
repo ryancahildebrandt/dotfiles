@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\bigcup]]></content>
-	<tabTrigger>bcu</tabTrigger>
-	<scope>text.tex.latex meta.environment.math</scope>
-	<description>\bigcup</description>
-</snippet>

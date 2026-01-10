@@ -1,4 +1,7 @@
 The following plugins are currently installed:
+bounce (2.0.0)
+go (2.0.2)
+lsp (0.6.2)
 autoclose (1.0.0)
 comment (1.0.0)
 diff (1.0.0)

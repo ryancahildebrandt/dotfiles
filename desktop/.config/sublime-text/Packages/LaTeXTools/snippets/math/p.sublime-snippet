@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\pi]]></content>
-	<tabTrigger>p</tabTrigger>
-	<scope>text.tex.latex meta.environment.math</scope>
-	<description>\pi</description>
-</snippet>

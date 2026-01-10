@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cp -r ~/.config/nvim ./.config/
-cp -r ~/.config/sublime-text ./.config/
+# cp -r ~/.config/nvim ./.config/
+# cp -r ~/.config/sublime-text ./.config/
 #sublime backed up through PackageSync to ./sublime/
 
 while read -r f; do

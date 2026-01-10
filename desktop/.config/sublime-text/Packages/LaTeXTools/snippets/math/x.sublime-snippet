@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\xi]]></content>
-	<tabTrigger>x</tabTrigger>
-	<scope>text.tex.latex meta.environment.math</scope>
-	<description>\xi</description>
-</snippet>

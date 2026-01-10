@@ -28,3 +28,20 @@ fi
 
 . "$HOME/.local/bin/env"
 . "$HOME/.cargo/env"
+
+. "$HOME/.atuin/bin/env"
+
+# >>> juliaup initialize >>>
+
+# !! Contents within this block are managed by juliaup !!
+
+case ":$PATH:" in
+    *:/home/ryan/.juliaup/bin:*)
+        ;;
+
+    *)
+        export PATH=/home/ryan/.juliaup/bin${PATH:+:${PATH}}
+        ;;
+esac
+
+# <<< juliaup initialize <<<

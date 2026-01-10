@@ -1,4 +1,0 @@
-Metadata-Version: 2.1
-Name: plantumlconnection
-Version: 3999
-Summary: Python interface to a plantuml web service instead of having to run Java locally

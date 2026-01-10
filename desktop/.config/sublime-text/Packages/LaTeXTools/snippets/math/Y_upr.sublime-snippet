@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\Psi]]></content>
-	<tabTrigger>Y</tabTrigger>
-	<scope>text.tex.latex meta.environment.math</scope>
-	<description>\Psi</description>
-</snippet>

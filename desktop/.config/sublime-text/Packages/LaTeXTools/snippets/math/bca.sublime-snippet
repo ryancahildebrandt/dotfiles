@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\bigcap]]></content>
-	<tabTrigger>bca</tabTrigger>
-	<scope>text.tex.latex meta.environment.math</scope>
-	<description>\bigcap</description>
-</snippet>

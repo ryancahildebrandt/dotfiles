@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\int]]></content>
-	<tabTrigger>in</tabTrigger>
-	<scope>text.tex.latex meta.environment.math</scope>
-	<description>\int</description>
-</snippet>

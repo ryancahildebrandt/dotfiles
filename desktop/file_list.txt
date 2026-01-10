@@ -1,3 +1,4 @@
+.abcde.conf
 .nanorc
 julia.nanorc
 .profile
@@ -8,12 +9,14 @@ ruff.toml
 .golangci.yml
 .config/starship.toml
 .config/alacritty/alacritty.yml
+.config/atuin/config.toml
 .config/bat/config
 .config/fish/config.fish
 .config/helix/config.toml
 .config/helix/languages.toml
 .config/gh/config.yml
 .config/ghostty/config
+.config/jj/config.toml
 .config/micro/settings.json
 .config/neofetch/config.conf
 .config/nushell/config.nu

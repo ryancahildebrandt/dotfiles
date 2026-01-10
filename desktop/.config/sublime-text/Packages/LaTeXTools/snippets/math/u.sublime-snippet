@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\upsilon]]></content>
-	<tabTrigger>u</tabTrigger>
-	<scope>text.tex.latex meta.environment.math</scope>
-	<description>\upsilon</description>
-</snippet>

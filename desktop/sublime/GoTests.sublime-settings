@@ -1,5 +1,0 @@
-// GoTests.sublime-settings
-{
-	// Add your GOPATH here.
-	"GOPATH": "/usr/bin/go",
-}

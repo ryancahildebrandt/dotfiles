@@ -1,4 +1,0 @@
-Metadata-Version: 2.1
-Name: concurrentloghandler
-Version: 3999
-Summary: An additional concurrent file log handler for Python's standard logging package

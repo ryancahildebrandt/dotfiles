@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\Gamma]]></content>
-	<tabTrigger>G</tabTrigger>
-	<scope>text.tex.latex meta.environment.math</scope>
-	<description>\Gamma</description>
-</snippet>

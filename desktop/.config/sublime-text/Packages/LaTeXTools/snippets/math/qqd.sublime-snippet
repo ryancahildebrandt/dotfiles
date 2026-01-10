@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\qquad]]></content>
-	<tabTrigger>qqd</tabTrigger>
-	<scope>text.tex.latex meta.environment.math</scope>
-	<description>\qquad</description>
-</snippet>
