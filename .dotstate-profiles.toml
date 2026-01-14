@@ -41,7 +41,498 @@ synced_files = [
     "make_symlinks.sh",
     "ruff.toml",
 ]
-packages = []
+
+#apt
+[[profiles.packages]]
+manager = "apt"
+name = "abcde"
+package_name = "abcde"
+binary_name = "abcde"
+
+[[profiles.packages]]
+manager = "apt"
+name = "alacritty"
+package_name = "alacritty"
+binary_name = "alacritty"
+
+[[profiles.packages]]
+manager = "apt"
+name = "bat"
+package_name = "bat"
+binary_name = "bat"
+
+[[profiles.packages]]
+manager = "apt"
+name = "calibre"
+package_name = "calibre"
+binary_name = "calibre"
+
+[[profiles.packages]]
+manager = "apt"
+name = "chromium"
+package_name = "chromium"
+binary_name = "chromium"
+
+[[profiles.packages]]
+manager = "apt"
+name = "curl"
+package_name = "curl"
+binary_name = "curl"
+
+[[profiles.packages]]
+manager = "apt"
+name = "fcitx5-mozc"
+package_name = "fcitx5-mozc"
+binary_name = "fcitx5-mozc"
+
+[[profiles.packages]]
+manager = "apt"
+name = "fcitx5"
+package_name = "fcitx5"
+binary_name = "fcitx5"
+
+[[profiles.packages]]
+manager = "apt"
+name = "fd-find"
+package_name = "fd-find"
+binary_name = "fd-find"
+
+[[profiles.packages]]
+manager = "apt"
+name = "fish"
+package_name = "fish"
+binary_name = "fish"
+
+[[profiles.packages]]
+manager = "apt"
+name = "fzf"
+package_name = "fzf"
+binary_name = "fzf"
+
+[[profiles.packages]]
+manager = "apt"
+name = "git-lfs"
+package_name = "git-lfs"
+binary_name = "git-lfs"
+
+[[profiles.packages]]
+manager = "apt"
+name = "git"
+package_name = "git"
+binary_name = "git"
+
+[[profiles.packages]]
+manager = "apt"
+name = "golang"
+package_name = "golang"
+binary_name = "golang"
+
+[[profiles.packages]]
+manager = "apt"
+name = "gparted"
+package_name = "gparted"
+binary_name = "gparted"
+
+[[profiles.packages]]
+manager = "apt"
+name = "grep"
+package_name = "grep"
+binary_name = "grep"
+
+[[profiles.packages]]
+manager = "apt"
+name = "gzip"
+package_name = "gzip"
+binary_name = "gzip"
+
+[[profiles.packages]]
+manager = "apt"
+name = "htop"
+package_name = "htop"
+binary_name = "htop"
+
+[[profiles.packages]]
+manager = "apt"
+name = "httpie"
+package_name = "httpie"
+binary_name = "httpie"
+
+[[profiles.packages]]
+manager = "apt"
+name = "jq"
+package_name = "jq"
+binary_name = "jq"
+
+[[profiles.packages]]
+manager = "apt"
+name = "k3b"
+package_name = "k3b"
+binary_name = "k3b"
+
+[[profiles.packages]]
+manager = "apt"
+name = "micro"
+package_name = "micro"
+binary_name = "micro"
+
+[[profiles.packages]]
+manager = "apt"
+name = "nano"
+package_name = "nano"
+binary_name = "nano"
+
+[[profiles.packages]]
+manager = "apt"
+name = "openssh-client"
+package_name = "openssh-client"
+binary_name = "openssh-client"
+
+[[profiles.packages]]
+manager = "apt"
+name = "pandoc"
+package_name = "pandoc"
+binary_name = "pandoc"
+
+[[profiles.packages]]
+manager = "apt"
+name = "picard"
+package_name = "picard"
+binary_name = "picard"
+
+[[profiles.packages]]
+manager = "apt"
+name = "podman"
+package_name = "podman"
+binary_name = "podman"
+
+[[profiles.packages]]
+manager = "apt"
+name = "rsync"
+package_name = "rsync"
+binary_name = "rsync"
+
+[[profiles.packages]]
+manager = "apt"
+name = "sed"
+package_name = "sed"
+binary_name = "sed"
+
+[[profiles.packages]]
+manager = "apt"
+name = "sensible-utils"
+package_name = "sensible-utils"
+binary_name = "sensible-utils"
+
+[[profiles.packages]]
+manager = "apt"
+name = "strawberry"
+package_name = "strawberry"
+binary_name = "strawberry"
+
+[[profiles.packages]]
+manager = "apt"
+name = "sublime-text"
+package_name = "sublime-text"
+binary_name = "sublime-text"
+
+[[profiles.packages]]
+manager = "apt"
+name = "tar"
+package_name = "tar"
+binary_name = "tar"
+
+[[profiles.packages]]
+manager = "apt"
+name = "tmux"
+package_name = "tmux"
+binary_name = "tmux"
+
+[[profiles.packages]]
+manager = "apt"
+name = "tree"
+package_name = "tree"
+binary_name = "tree"
+
+[[profiles.packages]]
+manager = "apt"
+name = "ufw"
+package_name = "ufw"
+binary_name = "ufw"
+
+[[profiles.packages]]
+manager = "apt"
+name = "unzip"
+package_name = "unzip"
+binary_name = "unzip"
+
+[[profiles.packages]]
+manager = "apt"
+name = "wget"
+package_name = "wget"
+binary_name = "wget"
+
+#go
+[[profiles.packages]]
+manager = "custom"
+name = "bleve"
+binary_name = "bleve"
+install_command = "go install github.com/blevesearch/bleve/v2/cmd/bleve@latest"
+
+[[profiles.packages]]
+manager = "custom"
+name = "d2"
+binary_name = "d2"
+install_command = "go install oss.terrastruct.com/d2@latest"
+
+[[profiles.packages]]
+manager = "custom"
+name = "dlv"
+binary_name = "dlv"
+install_command = "go install github.com/go-delve/delve/cmd/dlv@latest"
+
+[[profiles.packages]]
+manager = "custom"
+name = "filewatcher"
+binary_name = "filewatcher"
+install_command = "go install github.com/dnephin/filewatcher@latest"
+
+[[profiles.packages]]
+manager = "custom"
+name = "goimports"
+binary_name = "goimports"
+install_command = "go install golang.org/x/tools/cmd/goimports@latest"
+
+[[profiles.packages]]
+manager = "custom"
+name = "gojson"
+binary_name = "gojson"
+install_command = "go install github.com/ChimeraCoder/gojson/gojson@latest"
+
+[[profiles.packages]]
+manager = "custom"
+name = "golangci-lint"
+binary_name = "golangci-lint"
+install_command = "go install github.com/golangci/golangci-lint/v2/cmd/golangci-lint@latest"
+
+[[profiles.packages]]
+manager = "custom"
+name = "gomodifytags"
+binary_name = "gomodifytags"
+install_command = "go install github.com/fatih/gomodifytags@latest"
+
+[[profiles.packages]]
+manager = "custom"
+name = "gopls"
+binary_name = "gopls"
+install_command = "go install golang.org/x/tools/gopls@latest"
+
+[[profiles.packages]]
+manager = "custom"
+name = "gotests"
+binary_name = "gotests"
+install_command = "go install github.com/cweill/gotests/gotests@latest"
+
+[[profiles.packages]]
+manager = "custom"
+name = "gup"
+binary_name = "gup"
+install_command = "go install github.com/nao1215/gup@latest"
+
+[[profiles.packages]]
+manager = "custom"
+name = "hugo"
+binary_name = "hugo"
+install_command = "go install github.com/gohugoio/hugo@latest"
+
+[[profiles.packages]]
+manager = "custom"
+name = "lazydocker"
+binary_name = "lazydocker"
+install_command = "go install github.com/jesseduffield/lazydocker@latest"
+
+[[profiles.packages]]
+manager = "custom"
+name = "lazygit"
+binary_name = "lazygit"
+install_command = "go install github.com/jesseduffield/lazygit@latest"
+
+[[profiles.packages]]
+manager = "custom"
+name = "meteor"
+binary_name = "meteor"
+install_command = "go install github.com/stefanlogue/meteor@latest"
+
+[[profiles.packages]]
+manager = "custom"
+name = "revive"
+binary_name = "revive"
+install_command = "go install github.com/mgechev/revive@latest"
+
+[[profiles.packages]]
+manager = "custom"
+name = "staticcheck"
+binary_name = "staticcheck"
+install_command = "go install honnef.co/go/tools/cmd/staticcheck@latest"
+
+#cargo
+[[profiles.packages]]
+manager = "cargo"
+name = "bookokrat"
+package_name = "bookokrat"
+binary_name = "bookokrat"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "cargo-update"
+package_name = "cargo-update"
+binary_name = "cargo-update"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "dotstate"
+package_name = "dotstate"
+binary_name = "dotstate"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "exa"
+package_name = "exa"
+binary_name = "exa"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "fd-find"
+package_name = "fd-find"
+binary_name = "fd-find"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "furl-cli"
+package_name = "furl-cli"
+binary_name = "furl-cli"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "hyperfine"
+package_name = "hyperfine"
+binary_name = "hyperfine"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "jj-cli"
+package_name = "jj-cli"
+binary_name = "jj-cli"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "jnv"
+package_name = "jnv"
+binary_name = "jnv"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "just"
+package_name = "just"
+binary_name = "just"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "lstr"
+package_name = "lstr"
+binary_name = "lstr"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "macchina"
+package_name = "macchina"
+binary_name = "macchina"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "miniserve"
+package_name = "miniserve"
+binary_name = "miniserve"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "nu"
+package_name = "nu"
+binary_name = "nu"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "rip2"
+package_name = "rip2"
+binary_name = "rip2"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "ripgrep"
+package_name = "ripgrep"
+binary_name = "ripgrep"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "sd"
+package_name = "sd"
+binary_name = "sd"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "termusic"
+package_name = "termusic"
+binary_name = "termusic"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "termusic-server"
+package_name = "termusic-server"
+binary_name = "termusic-server"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "typos-cli"
+package_name = "typos-cli"
+binary_name = "typos-cli"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "xcp"
+package_name = "xcp"
+binary_name = "xcp"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "yazi-build"
+package_name = "yazi-build"
+binary_name = "yazi-build"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "yazi-cli"
+package_name = "yazi-cli"
+binary_name = "yazi-cli"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "yazi-fm"
+package_name = "yazi-fm"
+binary_name = "yazi-fm"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "zellij"
+package_name = "zellij"
+binary_name = "zellij"
+
+[[profiles.packages]]
+manager = "cargo"
+name = "zoxide"
+package_name = "zoxide"
+binary_name = "zoxide"
+
+
+
 
 [[profiles]]
 name = "laptop"
