@@ -1,0 +1,35 @@
+[[profiles]]
+name = "desktop"
+synced_files = [
+    ".abcde.conf",
+    ".bash_logout",
+    ".bashrc",
+    ".config/atuin/config.toml",
+    ".config/fish/config.fish",
+    ".config/fzf/fzf_conf.fish",
+    ".config/jj/config.toml",
+    ".config/micro/bindings.json",
+    ".config/micro/settings.json",
+    ".config/nvim",
+    ".config/starship.toml",
+    ".config/yazi/wrapper.fish",
+    ".config/yazi/yazi.toml",
+    ".config/zellij",
+    ".golangci.yml",
+    ".profile",
+    ".zshrc",
+    "Justfile",
+    "make_symlinks.sh",
+    "ruff.toml",
+]
+packages = []
+
+[[profiles]]
+name = "laptop"
+synced_files = []
+packages = []
+
+[[profiles]]
+name = "work"
+synced_files = []
+packages = []
