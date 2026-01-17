@@ -1,8 +1,11 @@
 # ~/.config/fish/config.fish
 
 # Fish options 
+fish_add_path ~/.local/bin
+
 zoxide init --cmd j fish | source
-starship init fish | source
+# starship init fish | source
+oh-my-posh init fish --config "gruvbox" | source
 
 # Custom aliases
 alias lx="ls -1AFhs --color --group-directories-first"
@@ -29,5 +32,4 @@ alias nxd="sudo nix-collect-garbage -d"
 
 #external commands/config
 source ~/.config/fish/private_commands.fish
-source ~/.config/fzf/fzf_conf.fish
 source ~/github/dotfiles/laptop/blanks/commands.fish
