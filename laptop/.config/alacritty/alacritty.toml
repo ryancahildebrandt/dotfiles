@@ -34,6 +34,6 @@ family = "Mononoki Nerd Font"
 style = "Regular"
 
 [window]
-decorations = "None"
+# decorations = "None"
 dynamic_title = true
 

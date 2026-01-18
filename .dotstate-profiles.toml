@@ -382,12 +382,15 @@ package_name = "bookokrat"
 binary_name = "bookokrat"
 
 [[profiles.packages]]
+<<<<<<< HEAD
 name = "cargo-update"
 manager = "cargo"
 package_name = "cargo-update"
 binary_name = "cargo-update"
 
 [[profiles.packages]]
+=======
+>>>>>>> a2db82d461c2dea1edc244d029337e5f28f65f2a
 name = "dotstate"
 manager = "cargo"
 package_name = "dotstate"
@@ -531,16 +534,335 @@ manager = "cargo"
 package_name = "zoxide"
 binary_name = "zoxide"
 
+<<<<<<< HEAD
 [[profiles.packages]]
 name = "rsvp-term"
 manager = "cargo"
 package_name = "rsvp-term"
 binary_name = "rsvp-term"
-
+=======
 [[profiles]]
 name = "laptop"
-synced_files = []
-packages = []
+synced_files = [
+    ".config/alacritty",
+    ".config/bat",
+    ".config/fish/config.fish",
+    ".config/fzf/fzf_conf.fish",
+    ".config/micro/bindings.json",
+    ".config/micro/settings.json",
+    ".config/rofi/config.rasi",
+    ".config/starship.toml",
+    ".config/yazi/yazi.toml",
+    ".config/zellij/config.kdl",
+    ".zshrc",
+]
+
+[[profiles.packages]]
+manager = "custom"
+name = "alacritty"
+binary_name = "alacritty"
+install_command = "xbps-install -Sy alacritty"
+
+[[profiles.packages]]
+manager = "custom"
+name = "bat"
+binary_name = "bat"
+install_command = "xbps-install -Sy bat"
+
+[[profiles.packages]]
+manager = "custom"
+name = "brightnessctl"
+binary_name = "brightnessctl"
+install_command = "xbps-install -Sy brightnessctl"
+>>>>>>> a2db82d461c2dea1edc244d029337e5f28f65f2a
+
+[[profiles.packages]]
+manager = "custom"
+name = "cargo-update"
+binary_name = "cargo-update"
+install_command = "xbps-install -Sy cargo-update"
+
+[[profiles.packages]]
+manager = "custom"
+name = "chromium"
+binary_name = "chromium"
+install_command = "xbps-install -Sy chromium"
+
+[[profiles.packages]]
+manager = "custom"
+name = "cups"
+binary_name = "cups"
+install_command = "xbps-install -Sy cups"
+
+[[profiles.packages]]
+manager = "custom"
+name = "curl"
+binary_name = "curl"
+install_command = "xbps-install -Sy curl"
+
+[[profiles.packages]]
+manager = "custom"
+name = "eva"
+binary_name = "eva"
+install_command = "xbps-install -Sy eva"
+
+[[profiles.packages]]
+manager = "custom"
+name = "eza"
+binary_name = "eza"
+install_command = "xbps-install -Sy eza"
+
+[[profiles.packages]]
+manager = "custom"
+name = "fcitx5"
+binary_name = "fcitx5"
+install_command = "xbps-install -Sy fcitx5"
+
+[[profiles.packages]]
+manager = "custom"
+name = "fcitx5-gtk"
+binary_name = "fcitx5-gtk"
+install_command = "xbps-install -Sy fcitx5-gtk"
+
+[[profiles.packages]]
+manager = "custom"
+name = "fcitx5-mozc"
+binary_name = "fcitx5-mozc"
+install_command = "xbps-install -Sy fcitx5-mozc"
+
+[[profiles.packages]]
+manager = "custom"
+name = "fd"
+binary_name = "fd"
+install_command = "xbps-install -Sy fd"
+
+[[profiles.packages]]
+manager = "custom"
+name = "firefox"
+binary_name = "firefox"
+install_command = "xbps-install -Sy firefox"
+
+[[profiles.packages]]
+manager = "custom"
+name = "fish-shell"
+binary_name = "fish-shell"
+install_command = "xbps-install -Sy fish-shell"
+
+[[profiles.packages]]
+manager = "custom"
+name = "fzf"
+binary_name = "fzf"
+install_command = "xbps-install -Sy fzf"
+
+[[profiles.packages]]
+manager = "custom"
+name = "geany"
+binary_name = "geany"
+install_command = "xbps-install -Sy geany"
+
+[[profiles.packages]]
+manager = "custom"
+name = "gnome-keyring"
+binary_name = "gnome-keyring"
+install_command = "xbps-install -Sy gnome-keyring"
+
+[[profiles.packages]]
+manager = "custom"
+name = "gnome-themes-standard"
+binary_name = "gnome-themes-standard"
+install_command = "xbps-install -Sy gnome-themes-standard"
+
+[[profiles.packages]]
+manager = "custom"
+name = "go"
+binary_name = "go"
+install_command = "xbps-install -Sy go"
+
+[[profiles.packages]]
+manager = "custom"
+name = "jq"
+binary_name = "jq"
+install_command = "xbps-install -Sy jq"
+
+[[profiles.packages]]
+manager = "custom"
+name = "lazygit"
+binary_name = "lazygit"
+install_command = "xbps-install -Sy lazygit"
+
+[[profiles.packages]]
+manager = "custom"
+name = "lightdm"
+binary_name = "lightdm"
+install_command = "xbps-install -Sy lightdm"
+
+[[profiles.packages]]
+manager = "custom"
+name = "lightdm-gtk-greeter"
+binary_name = "lightdm-gtk-greeter"
+install_command = "xbps-install -Sy lightdm-gtk-greeter"
+
+[[profiles.packages]]
+manager = "custom"
+name = "micro"
+binary_name = "micro"
+install_command = "xbps-install -Sy micro"
+
+[[profiles.packages]]
+manager = "custom"
+name = "neofetch"
+binary_name = "neofetch"
+install_command = "xbps-install -Sy neofetch"
+
+[[profiles.packages]]
+manager = "custom"
+name = "nerd-fonts"
+binary_name = "nerd-fonts"
+install_command = "xbps-install -Sy nerd-fonts"
+
+[[profiles.packages]]
+manager = "custom"
+name = "network-manager-applet"
+binary_name = "network-manager-applet"
+install_command = "xbps-install -Sy network-manager-applet"
+
+[[profiles.packages]]
+manager = "custom"
+name = "orca"
+binary_name = "orca"
+install_command = "xbps-install -Sy orca"
+
+[[profiles.packages]]
+manager = "custom"
+name = "pa-applet"
+binary_name = "pa-applet"
+install_command = "xbps-install -Sy pa-applet"
+
+[[profiles.packages]]
+manager = "custom"
+name = "pandoc"
+binary_name = "pandoc"
+install_command = "xbps-install -Sy pandoc"
+
+[[profiles.packages]]
+manager = "custom"
+name = "picard"
+binary_name = "picard"
+install_command = "xbps-install -Sy picard"
+
+[[profiles.packages]]
+manager = "custom"
+name = "plasma-workspace-wallpapers"
+binary_name = "plasma-workspace-wallpapers"
+install_command = "xbps-install -Sy plasma-workspace-wallpapers"
+
+[[profiles.packages]]
+manager = "custom"
+name = "rofi"
+binary_name = "rofi"
+install_command = "xbps-install -Sy rofi"
+
+[[profiles.packages]]
+manager = "custom"
+name = "rsync"
+binary_name = "rsync"
+install_command = "xbps-install -Sy rsync"
+
+[[profiles.packages]]
+manager = "custom"
+name = "starship"
+binary_name = "starship"
+install_command = "xbps-install -Sy starship"
+
+[[profiles.packages]]
+manager = "custom"
+name = "strawberry"
+binary_name = "strawberry"
+install_command = "xbps-install -Sy strawberry"
+
+[[profiles.packages]]
+manager = "custom"
+name = "tau"
+binary_name = "tau"
+install_command = "xbps-install -Sy tau"
+
+[[profiles.packages]]
+manager = "custom"
+name = "tmux"
+binary_name = "tmux"
+install_command = "xbps-install -Sy tmux"
+
+[[profiles.packages]]
+manager = "custom"
+name = "unzip"
+binary_name = "unzip"
+install_command = "xbps-install -Sy unzip"
+
+[[profiles.packages]]
+manager = "custom"
+name = "wget"
+binary_name = "wget"
+install_command = "xbps-install -Sy wget"
+
+[[profiles.packages]]
+manager = "custom"
+name = "yazi"
+binary_name = "yazi"
+install_command = "xbps-install -Sy yazi"
+
+[[profiles.packages]]
+manager = "custom"
+name = "yubikey-manager"
+binary_name = "yubikey-manager"
+install_command = "xbps-install -Sy yubikey-manager"
+
+[[profiles.packages]]
+manager = "custom"
+name = "zellij"
+binary_name = "zellij"
+install_command = "xbps-install -Sy zellij"
+
+[[profiles.packages]]
+manager = "custom"
+name = "zoxide"
+binary_name = "zoxide"
+install_command = "xbps-install -Sy zoxide"
+
+[[profiles.packages]]
+name = "gup"
+manager = "custom"
+binary_name = "gup"
+install_command = "go install github.com/nao1215/gup@latest"
+
+[[profiles.packages]]
+name = "meteor"
+manager = "custom"
+binary_name = "meteor"
+install_command = "go install github.com/stefanlogue/meteor@latest"
+
+[[profiles.packages]]
+name = "bookokrat"
+manager = "cargo"
+package_name = "bookokrat"
+binary_name = "bookokrat"
+
+[[profiles.packages]]
+name = "dotstate"
+manager = "cargo"
+package_name = "dotstate"
+binary_name = "dotstate"
+
+[[profiles.packages]]
+name = "ripgrep"
+manager = "cargo"
+package_name = "ripgrep"
+binary_name = "ripgrep"
+
+[[profiles.packages]]
+name = "sd"
+manager = "cargo"
+package_name = "sd"
+binary_name = "sd"
 
 [[profiles]]
 name = "work"
