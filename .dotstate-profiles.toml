@@ -382,18 +382,12 @@ package_name = "bookokrat"
 binary_name = "bookokrat"
 
 [[profiles.packages]]
-<<<<<<< HEAD
-<<<<<<< HEAD
 name = "cargo-update"
 manager = "cargo"
 package_name = "cargo-update"
 binary_name = "cargo-update"
 
 [[profiles.packages]]
-=======
->>>>>>> a2db82d461c2dea1edc244d029337e5f28f65f2a
-=======
->>>>>>> a2db82d461c2dea1edc244d029337e5f28f65f2a
 name = "dotstate"
 manager = "cargo"
 package_name = "dotstate"
@@ -537,16 +531,12 @@ manager = "cargo"
 package_name = "zoxide"
 binary_name = "zoxide"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 [[profiles.packages]]
 name = "rsvp-term"
 manager = "cargo"
 package_name = "rsvp-term"
 binary_name = "rsvp-term"
 =======
-=======
->>>>>>> a2db82d461c2dea1edc244d029337e5f28f65f2a
 [[profiles]]
 name = "laptop"
 synced_files = [
@@ -580,10 +570,6 @@ manager = "custom"
 name = "brightnessctl"
 binary_name = "brightnessctl"
 install_command = "xbps-install -Sy brightnessctl"
-<<<<<<< HEAD
->>>>>>> a2db82d461c2dea1edc244d029337e5f28f65f2a
-=======
->>>>>>> a2db82d461c2dea1edc244d029337e5f28f65f2a
 
 [[profiles.packages]]
 manager = "custom"
