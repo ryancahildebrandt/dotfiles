@@ -298,6 +298,12 @@ binary_name = "filewatcher"
 install_command = "go install github.com/dnephin/filewatcher@latest"
 
 [[profiles.packages]]
+name = "glow"
+manager = "custom"
+binary_name = "glow"
+install_command = "go install github.com/charmbracelet/glow/v2@latest"
+
+[[profiles.packages]]
 name = "goimports"
 manager = "custom"
 binary_name = "goimports"
@@ -846,6 +852,12 @@ manager = "custom"
 name = "zoxide"
 binary_name = "zoxide"
 install_command = "xbps-install -Sy zoxide"
+
+[[profiles.packages]]
+name = "glow"
+manager = "custom"
+binary_name = "glow"
+install_command = "go install github.com/charmbracelet/glow/v2@latest"
 
 [[profiles.packages]]
 name = "gup"
