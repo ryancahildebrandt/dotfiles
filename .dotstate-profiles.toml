@@ -382,10 +382,22 @@ package_name = "bookokrat"
 binary_name = "bookokrat"
 
 [[profiles.packages]]
+name = "bottom"
+manager = "cargo"
+package_name = "bottom"
+binary_name = "bottom"
+
+[[profiles.packages]]
 name = "cargo-update"
 manager = "cargo"
 package_name = "cargo-update"
 binary_name = "cargo-update"
+
+[[profiles.packages]]
+name = "delta"
+manager = "cargo"
+package_name = "git-delta"
+binary_name = "git-delta"
 
 [[profiles.packages]]
 name = "dotstate"
@@ -458,6 +470,12 @@ name = "nu"
 manager = "cargo"
 package_name = "nu"
 binary_name = "nu"
+
+[[profiles.packages]]
+name = "pik"
+manager = "cargo"
+package_name = "pik"
+binary_name = "pik"
 
 [[profiles.packages]]
 name = "rip2"

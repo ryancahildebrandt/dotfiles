@@ -8,3 +8,5 @@ email = "ryancahildebrandt@gmail.com"
 editor = "micro"
 color = "auto"
 default-command = ["log", "-n=5"]
+pager = "delta"
+diff-formatter = ":git"
