@@ -554,7 +554,7 @@ name = "rsvp-term"
 manager = "cargo"
 package_name = "rsvp-term"
 binary_name = "rsvp-term"
-=======
+
 [[profiles]]
 name = "laptop"
 synced_files = [
