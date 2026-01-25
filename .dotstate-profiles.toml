@@ -376,6 +376,12 @@ binary_name = "staticcheck"
 install_command = "go install honnef.co/go/tools/cmd/staticcheck@latest"
 
 [[profiles.packages]]
+name = "validator"
+manager = "custom"
+binary_name = "validator"
+install_command = "go install github.com/Boeing/config-file-validator/cmd/validator@latest"
+
+[[profiles.packages]]
 name = "bookokrat"
 manager = "cargo"
 package_name = "bookokrat"
