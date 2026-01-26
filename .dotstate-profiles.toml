@@ -382,6 +382,12 @@ binary_name = "staticcheck"
 install_command = "go install honnef.co/go/tools/cmd/staticcheck@latest"
 
 [[profiles.packages]]
+name = "trex"
+manager = "custom"
+binary_name = "trex"
+install_command = "go install github.com/samyakbardiya/trex@latest"
+
+[[profiles.packages]]
 name = "validator"
 manager = "custom"
 binary_name = "validator"
@@ -518,6 +524,12 @@ name = "termusic-server"
 manager = "cargo"
 package_name = "termusic-server"
 binary_name = "termusic-server"
+
+[[profiles.packages]]
+name = "topgrade"
+manager = "cargo"
+package_name = "topgrade"
+binary_name = "topgrade"
 
 [[profiles.packages]]
 name = "typos-cli"
