@@ -29,6 +29,7 @@ synced_files = [
     ".config/pipewire/pipewire-pulse.conf",
     ".config/pipewire/pipewire.conf",
     ".config/starship.toml",
+    ".config/topgrade.toml",
     ".config/yazi/wrapper.fish",
     ".config/yazi/yazi.toml",
     ".config/zellij",
@@ -596,272 +597,272 @@ synced_files = [
 ]
 
 [[profiles.packages]]
-manager = "custom"
 name = "alacritty"
+manager = "custom"
 binary_name = "alacritty"
 install_command = "xbps-install -Sy alacritty"
 
 [[profiles.packages]]
-manager = "custom"
 name = "bat"
+manager = "custom"
 binary_name = "bat"
 install_command = "xbps-install -Sy bat"
 
 [[profiles.packages]]
-manager = "custom"
 name = "brightnessctl"
+manager = "custom"
 binary_name = "brightnessctl"
 install_command = "xbps-install -Sy brightnessctl"
 
 [[profiles.packages]]
-manager = "custom"
 name = "cargo-update"
+manager = "custom"
 binary_name = "cargo-update"
 install_command = "xbps-install -Sy cargo-update"
 
 [[profiles.packages]]
-manager = "custom"
 name = "chromium"
+manager = "custom"
 binary_name = "chromium"
 install_command = "xbps-install -Sy chromium"
 
 [[profiles.packages]]
-manager = "custom"
 name = "cups"
+manager = "custom"
 binary_name = "cups"
 install_command = "xbps-install -Sy cups"
 
 [[profiles.packages]]
-manager = "custom"
 name = "curl"
+manager = "custom"
 binary_name = "curl"
 install_command = "xbps-install -Sy curl"
 
 [[profiles.packages]]
-manager = "custom"
 name = "eva"
+manager = "custom"
 binary_name = "eva"
 install_command = "xbps-install -Sy eva"
 
 [[profiles.packages]]
-manager = "custom"
 name = "eza"
+manager = "custom"
 binary_name = "eza"
 install_command = "xbps-install -Sy eza"
 
 [[profiles.packages]]
-manager = "custom"
 name = "fcitx5"
+manager = "custom"
 binary_name = "fcitx5"
 install_command = "xbps-install -Sy fcitx5"
 
 [[profiles.packages]]
-manager = "custom"
 name = "fcitx5-gtk"
+manager = "custom"
 binary_name = "fcitx5-gtk"
 install_command = "xbps-install -Sy fcitx5-gtk"
 
 [[profiles.packages]]
-manager = "custom"
 name = "fcitx5-mozc"
+manager = "custom"
 binary_name = "fcitx5-mozc"
 install_command = "xbps-install -Sy fcitx5-mozc"
 
 [[profiles.packages]]
-manager = "custom"
 name = "fd"
+manager = "custom"
 binary_name = "fd"
 install_command = "xbps-install -Sy fd"
 
 [[profiles.packages]]
-manager = "custom"
 name = "firefox"
+manager = "custom"
 binary_name = "firefox"
 install_command = "xbps-install -Sy firefox"
 
 [[profiles.packages]]
-manager = "custom"
 name = "fish-shell"
+manager = "custom"
 binary_name = "fish-shell"
 install_command = "xbps-install -Sy fish-shell"
 
 [[profiles.packages]]
-manager = "custom"
 name = "fzf"
+manager = "custom"
 binary_name = "fzf"
 install_command = "xbps-install -Sy fzf"
 
 [[profiles.packages]]
-manager = "custom"
 name = "geany"
+manager = "custom"
 binary_name = "geany"
 install_command = "xbps-install -Sy geany"
 
 [[profiles.packages]]
-manager = "custom"
 name = "gnome-keyring"
+manager = "custom"
 binary_name = "gnome-keyring"
 install_command = "xbps-install -Sy gnome-keyring"
 
 [[profiles.packages]]
-manager = "custom"
 name = "gnome-themes-standard"
+manager = "custom"
 binary_name = "gnome-themes-standard"
 install_command = "xbps-install -Sy gnome-themes-standard"
 
 [[profiles.packages]]
-manager = "custom"
 name = "go"
+manager = "custom"
 binary_name = "go"
 install_command = "xbps-install -Sy go"
 
 [[profiles.packages]]
-manager = "custom"
 name = "jq"
+manager = "custom"
 binary_name = "jq"
 install_command = "xbps-install -Sy jq"
 
 [[profiles.packages]]
-manager = "custom"
 name = "lazygit"
+manager = "custom"
 binary_name = "lazygit"
 install_command = "xbps-install -Sy lazygit"
 
 [[profiles.packages]]
-manager = "custom"
 name = "lightdm"
+manager = "custom"
 binary_name = "lightdm"
 install_command = "xbps-install -Sy lightdm"
 
 [[profiles.packages]]
-manager = "custom"
 name = "lightdm-gtk-greeter"
+manager = "custom"
 binary_name = "lightdm-gtk-greeter"
 install_command = "xbps-install -Sy lightdm-gtk-greeter"
 
 [[profiles.packages]]
-manager = "custom"
 name = "micro"
+manager = "custom"
 binary_name = "micro"
 install_command = "xbps-install -Sy micro"
 
 [[profiles.packages]]
-manager = "custom"
 name = "neofetch"
+manager = "custom"
 binary_name = "neofetch"
 install_command = "xbps-install -Sy neofetch"
 
 [[profiles.packages]]
-manager = "custom"
 name = "nerd-fonts"
+manager = "custom"
 binary_name = "nerd-fonts"
 install_command = "xbps-install -Sy nerd-fonts"
 
 [[profiles.packages]]
-manager = "custom"
 name = "network-manager-applet"
+manager = "custom"
 binary_name = "network-manager-applet"
 install_command = "xbps-install -Sy network-manager-applet"
 
 [[profiles.packages]]
-manager = "custom"
 name = "orca"
+manager = "custom"
 binary_name = "orca"
 install_command = "xbps-install -Sy orca"
 
 [[profiles.packages]]
-manager = "custom"
 name = "pa-applet"
+manager = "custom"
 binary_name = "pa-applet"
 install_command = "xbps-install -Sy pa-applet"
 
 [[profiles.packages]]
-manager = "custom"
 name = "pandoc"
+manager = "custom"
 binary_name = "pandoc"
 install_command = "xbps-install -Sy pandoc"
 
 [[profiles.packages]]
-manager = "custom"
 name = "picard"
+manager = "custom"
 binary_name = "picard"
 install_command = "xbps-install -Sy picard"
 
 [[profiles.packages]]
-manager = "custom"
 name = "plasma-workspace-wallpapers"
+manager = "custom"
 binary_name = "plasma-workspace-wallpapers"
 install_command = "xbps-install -Sy plasma-workspace-wallpapers"
 
 [[profiles.packages]]
-manager = "custom"
 name = "rofi"
+manager = "custom"
 binary_name = "rofi"
 install_command = "xbps-install -Sy rofi"
 
 [[profiles.packages]]
-manager = "custom"
 name = "rsync"
+manager = "custom"
 binary_name = "rsync"
 install_command = "xbps-install -Sy rsync"
 
 [[profiles.packages]]
-manager = "custom"
 name = "starship"
+manager = "custom"
 binary_name = "starship"
 install_command = "xbps-install -Sy starship"
 
 [[profiles.packages]]
-manager = "custom"
 name = "strawberry"
+manager = "custom"
 binary_name = "strawberry"
 install_command = "xbps-install -Sy strawberry"
 
 [[profiles.packages]]
-manager = "custom"
 name = "tau"
+manager = "custom"
 binary_name = "tau"
 install_command = "xbps-install -Sy tau"
 
 [[profiles.packages]]
-manager = "custom"
 name = "tmux"
+manager = "custom"
 binary_name = "tmux"
 install_command = "xbps-install -Sy tmux"
 
 [[profiles.packages]]
-manager = "custom"
 name = "unzip"
+manager = "custom"
 binary_name = "unzip"
 install_command = "xbps-install -Sy unzip"
 
 [[profiles.packages]]
-manager = "custom"
 name = "wget"
+manager = "custom"
 binary_name = "wget"
 install_command = "xbps-install -Sy wget"
 
 [[profiles.packages]]
-manager = "custom"
 name = "yazi"
+manager = "custom"
 binary_name = "yazi"
 install_command = "xbps-install -Sy yazi"
 
 [[profiles.packages]]
-manager = "custom"
 name = "yubikey-manager"
+manager = "custom"
 binary_name = "yubikey-manager"
 install_command = "xbps-install -Sy yubikey-manager"
 
 [[profiles.packages]]
-manager = "custom"
 name = "zellij"
+manager = "custom"
 binary_name = "zellij"
 install_command = "xbps-install -Sy zellij"
 
 [[profiles.packages]]
-manager = "custom"
 name = "zoxide"
+manager = "custom"
 binary_name = "zoxide"
 install_command = "xbps-install -Sy zoxide"
 
