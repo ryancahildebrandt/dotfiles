@@ -3,5 +3,6 @@
 	"lsp.formatOnSave": true,
 	"lsp.tabcompletion": true,
 	"lsp.ignoreTriggerCharacters": "completion,signature",
-	"lsp.autocompleteDetails": true
+	"lsp.autocompleteDetails": true,
+	"mkparents": true
 }

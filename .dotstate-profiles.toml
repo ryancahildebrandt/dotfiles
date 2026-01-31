@@ -581,6 +581,13 @@ manager = "cargo"
 package_name = "rsvp-term"
 binary_name = "rsvp-term"
 
+[[profiles.packages]]
+name = "du-dust"
+description = "dust"
+manager = "cargo"
+package_name = "du-dust"
+binary_name = "du-dust"
+
 [[profiles]]
 name = "laptop"
 synced_files = [
