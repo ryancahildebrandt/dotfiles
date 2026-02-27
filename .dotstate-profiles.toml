@@ -1,3 +1,5 @@
+version = 1
+
 [common]
 synced_files = []
 
@@ -394,6 +396,12 @@ name = "validator"
 manager = "custom"
 binary_name = "validator"
 install_command = "go install github.com/Boeing/config-file-validator/cmd/validator@latest"
+
+[[profiles.packages]]
+name = "yamlfmt"
+manager = "custom"
+binary_name = "yamlfmt"
+install_command = "go install github.com/google/yamlfmt/cmd/yamlfmt@latest"
 
 [[profiles.packages]]
 name = "bookokrat"

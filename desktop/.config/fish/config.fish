@@ -50,7 +50,7 @@ alias v="nvim"
 alias h="hx"
 alias lg="lazygit"
 alias z="zellij"
-alias gt="gotests -w --all --excl=New --template_dir=/home/ryan/github/gotests/templates/testify"
+alias gt="gotests -iw --use_go_cmp --all --excl=New --template_dir=/home/ryan/github/gotests/templates/testify"
 alias lstr="lstr -saG --icons --level=2"
 
 #external commands/config
