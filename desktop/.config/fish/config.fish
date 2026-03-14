@@ -52,6 +52,7 @@ alias lg="lazygit"
 alias z="zellij"
 alias gt="gotests -iw --use_go_cmp --all --excl=New --template_dir=/home/ryan/github/gotests/templates/testify"
 alias lstr="lstr -saG --icons --level=2"
+alias f="flow"
 
 #external commands/config
 source ~/.config/fish/private_commands.fish

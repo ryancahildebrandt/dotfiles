@@ -4,6 +4,33 @@ version = 1
 synced_files = []
 
 [[profiles]]
+name = "Deb"
+synced_files = [
+    ".bashrc",
+    ".config/atuin/config.toml",
+    ".config/bat/config",
+    ".config/fish/config.fish",
+    ".config/fzf/fzf_conf.fish",
+    ".config/jj/config.toml",
+    ".config/micro/bindings.json",
+    ".config/micro/settings.json",
+    ".config/neofetch/config.conf",
+    ".config/nushell/config.nu",
+    ".config/nushell/env.nu",
+    ".config/nushell/plugins.nu",
+    ".config/topgrade.toml",
+    ".config/yazi/wrapper.fish",
+    ".config/yazi/yazi.toml",
+    ".config/zellij",
+    ".duckdbrc",
+    ".golangci.yml",
+    ".nanorc",
+    ".tmux.conf",
+    "Justfile",
+    "ruff.toml",
+]
+
+[[profiles]]
 name = "desktop"
 synced_files = [
     ".abcde.conf",
@@ -278,28 +305,10 @@ package_name = "wget"
 binary_name = "wget"
 
 [[profiles.packages]]
-name = "bleve"
-manager = "custom"
-binary_name = "bleve"
-install_command = "go install github.com/blevesearch/bleve/v2/cmd/bleve@latest"
-
-[[profiles.packages]]
 name = "d2"
 manager = "custom"
 binary_name = "d2"
 install_command = "go install oss.terrastruct.com/d2@latest"
-
-[[profiles.packages]]
-name = "dlv"
-manager = "custom"
-binary_name = "dlv"
-install_command = "go install github.com/go-delve/delve/cmd/dlv@latest"
-
-[[profiles.packages]]
-name = "filewatcher"
-manager = "custom"
-binary_name = "filewatcher"
-install_command = "go install github.com/dnephin/filewatcher@latest"
 
 [[profiles.packages]]
 name = "glow"
@@ -356,12 +365,6 @@ binary_name = "hugo"
 install_command = "go install github.com/gohugoio/hugo@latest"
 
 [[profiles.packages]]
-name = "lazydocker"
-manager = "custom"
-binary_name = "lazydocker"
-install_command = "go install github.com/jesseduffield/lazydocker@latest"
-
-[[profiles.packages]]
 name = "lazygit"
 manager = "custom"
 binary_name = "lazygit"
@@ -374,12 +377,6 @@ binary_name = "meteor"
 install_command = "go install github.com/stefanlogue/meteor@latest"
 
 [[profiles.packages]]
-name = "revive"
-manager = "custom"
-binary_name = "revive"
-install_command = "go install github.com/mgechev/revive@latest"
-
-[[profiles.packages]]
 name = "staticcheck"
 manager = "custom"
 binary_name = "staticcheck"
@@ -390,12 +387,6 @@ name = "trex"
 manager = "custom"
 binary_name = "trex"
 install_command = "go install github.com/samyakbardiya/trex@latest"
-
-[[profiles.packages]]
-name = "validator"
-manager = "custom"
-binary_name = "validator"
-install_command = "go install github.com/Boeing/config-file-validator/cmd/validator@latest"
 
 [[profiles.packages]]
 name = "yamlfmt"
@@ -462,12 +453,6 @@ name = "jj-cli"
 manager = "cargo"
 package_name = "jj-cli"
 binary_name = "jj-cli"
-
-[[profiles.packages]]
-name = "jnv"
-manager = "cargo"
-package_name = "jnv"
-binary_name = "jnv"
 
 [[profiles.packages]]
 name = "just"
@@ -926,5 +911,10 @@ binary_name = "sd"
 
 [[profiles]]
 name = "work"
+synced_files = []
+packages = []
+
+[[profiles]]
+name = "Deb"
 synced_files = []
 packages = []
