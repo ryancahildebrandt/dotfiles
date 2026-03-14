@@ -1,0 +1,8 @@
+{
+	"lsp.server": "python=ruff,go=gopls,markdown=deno lsp,json=deno lsp",
+	"lsp.formatOnSave": true,
+	"lsp.tabcompletion": true,
+	"lsp.ignoreTriggerCharacters": "completion,signature",
+	"lsp.autocompleteDetails": true,
+	"mkparents": true
+}

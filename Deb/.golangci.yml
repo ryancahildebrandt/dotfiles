@@ -1,0 +1,87 @@
+version: "2"
+linters:
+  enable:
+    - asciicheck
+    - bidichk
+    - copyloopvar
+    - decorder
+    - dogsled
+    - dupl
+    - gocheckcompilerdirectives
+    - gochecknoinits
+    - gocognit
+    - goconst
+    - gocyclo
+    - goheader
+    - gomoddirectives
+    - gomodguard
+    - goprintffuncname
+    - grouper
+    - inamedparam
+    - interfacebloat
+    - maintidx
+    - misspell
+    - mnd
+    - nakedret
+    - nestif
+    - nlreturn
+    - nolintlint
+    - nosprintfhostport
+    - predeclared
+    - promlinter
+    - revive
+    - tagalign
+    - testableexamples
+    - testpackage
+    - usestdlibvars
+    - whitespace
+  disable:
+    - cyclop
+    - depguard
+    - errcheck
+    - funlen
+    - godot
+    - godox
+    - govet
+    - lll
+    - prealloc
+    - staticcheck
+    - unused
+    - wsl
+  exclusions:
+    generated: lax
+    presets:
+      - comments
+      - common-false-positives
+      - legacy
+      - std-error-handling
+    rules:
+      - linters:
+          - cyclop
+          - dupl
+          - funlen
+          - maintidx
+        path: (.+)_test.go
+    paths:
+      - third_party$
+      - builtin$
+      - examples$
+formatters:
+  enable:
+    - gci
+    - gofmt
+    - gofumpt
+    - goimports
+  exclusions:
+    generated: lax
+    paths:
+      - third_party$
+      - builtin$
+      - examples$
+
+run:
+  tests: false
+
+output:
+  sort-order:
+    - file
