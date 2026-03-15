@@ -1,7 +1,7 @@
 # ~/.config/fish/config.fish
 
 # Fish options 
-fish_add_path ~/julia/bin ~/.juliaup/bin ~/.local/bin ~/.local/share ~/.local/share/gem/ruby ~/.cargo/bin ~/exercism/bin ~/.local/bin/qobuz-dl /root/.cargo/bin ~/go/bin /usr/bin/ruby /usr/bin/npm /usr/bin/node ~/.rbenv/bin ~/zig ~/.atuin/bin
+fish_add_path ~/.local/bin ~/.local/share ~/.cargo/bin ~/.local/bin/qobuz-dl /root/.cargo/bin ~/go/bin ~/.atuin/bin
 
 zoxide init --cmd j fish | source
 atuin init fish | source
@@ -9,17 +9,6 @@ atuin init fish | source
 oh-my-posh init fish --config "gruvbox" | source
 
 set -U fish_greeting ""
-# °
-# O     /`·.¸
-# 0      /¸...¸`:·
-# o ¸.·´  ¸   `·.¸.·´)
-# : © ):´;      ¸  {
-# `·.¸ `·  ¸.·´\`·¸)
-# `\\´´\¸.·´
-# 
-# 〜　フ　ィ　ッ　シ　ュ　タ　イ　ム　〜
-# 
-# "
 
 # Custom aliases
 alias lx="ls -1AFhs --color --group-directories-first"
@@ -55,9 +44,5 @@ alias lstr="lstr -saG --icons --level=2"
 alias f="flow"
 
 #external commands/config
-source ~/.config/fish/private_commands.fish
 source ~/.config/fzf/fzf_conf.fish
 source ~/.config/yazi/wrapper.fish
-
-# Added by `rbenv init` on Thu Aug 14 07:39:25 PM EDT 2025
-status --is-interactive; and ~/.rbenv/bin/rbenv init - --no-rehash fish | source
