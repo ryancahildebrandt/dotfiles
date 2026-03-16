@@ -23,6 +23,7 @@ synced_files = [
     ".config/zellij/config.kdl",
     ".duckdbrc",
     ".golangci.yml",
+    "Justfile",
     "ruff.toml",
 ]
 
@@ -403,18 +404,6 @@ name = "yazi-build"
 manager = "cargo"
 package_name = "yazi-build"
 binary_name = "yazi-build"
-
-[[profiles.packages]]
-name = "yazi-cli"
-manager = "cargo"
-package_name = "yazi-cli"
-binary_name = "yazi-cli"
-
-[[profiles.packages]]
-name = "yazi-fm"
-manager = "cargo"
-package_name = "yazi-fm"
-binary_name = "yazi-fm"
 
 [[profiles.packages]]
 name = "zellij"
@@ -948,18 +937,6 @@ name = "yazi-build"
 manager = "cargo"
 package_name = "yazi-build"
 binary_name = "yazi-build"
-
-[[profiles.packages]]
-name = "yazi-cli"
-manager = "cargo"
-package_name = "yazi-cli"
-binary_name = "yazi-cli"
-
-[[profiles.packages]]
-name = "yazi-fm"
-manager = "cargo"
-package_name = "yazi-fm"
-binary_name = "yazi-fm"
 
 [[profiles.packages]]
 name = "zellij"
