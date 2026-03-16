@@ -1290,13 +1290,3 @@ name = "sd"
 manager = "cargo"
 package_name = "sd"
 binary_name = "sd"
-
-[[profiles]]
-name = "work"
-synced_files = []
-packages = []
-
-[[profiles]]
-name = "Deb"
-synced_files = []
-packages = []
