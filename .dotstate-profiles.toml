@@ -535,22 +535,10 @@ package_name = "fzf"
 binary_name = "fzf"
 
 [[profiles.packages]]
-name = "git-lfs"
-manager = "apt"
-package_name = "git-lfs"
-binary_name = "git-lfs"
-
-[[profiles.packages]]
 name = "git"
 manager = "apt"
 package_name = "git"
 binary_name = "git"
-
-[[profiles.packages]]
-name = "golang"
-manager = "apt"
-package_name = "golang"
-binary_name = "golang"
 
 [[profiles.packages]]
 name = "gparted"
@@ -575,12 +563,6 @@ name = "htop"
 manager = "apt"
 package_name = "htop"
 binary_name = "htop"
-
-[[profiles.packages]]
-name = "httpie"
-manager = "apt"
-package_name = "httpie"
-binary_name = "httpie"
 
 [[profiles.packages]]
 name = "jq"
@@ -611,12 +593,6 @@ name = "openssh-client"
 manager = "apt"
 package_name = "openssh-client"
 binary_name = "openssh-client"
-
-[[profiles.packages]]
-name = "pandoc"
-manager = "apt"
-package_name = "pandoc"
-binary_name = "pandoc"
 
 [[profiles.packages]]
 name = "picard"
@@ -655,28 +631,10 @@ package_name = "strawberry"
 binary_name = "strawberry"
 
 [[profiles.packages]]
-name = "sublime-text"
-manager = "apt"
-package_name = "sublime-text"
-binary_name = "sublime-text"
-
-[[profiles.packages]]
 name = "tar"
 manager = "apt"
 package_name = "tar"
 binary_name = "tar"
-
-[[profiles.packages]]
-name = "tmux"
-manager = "apt"
-package_name = "tmux"
-binary_name = "tmux"
-
-[[profiles.packages]]
-name = "tree"
-manager = "apt"
-package_name = "tree"
-binary_name = "tree"
 
 [[profiles.packages]]
 name = "ufw"
@@ -697,94 +655,10 @@ package_name = "wget"
 binary_name = "wget"
 
 [[profiles.packages]]
-name = "d2"
-manager = "custom"
-binary_name = "d2"
-install_command = "go install oss.terrastruct.com/d2@latest"
-
-[[profiles.packages]]
-name = "glow"
-manager = "custom"
-binary_name = "glow"
-install_command = "go install github.com/charmbracelet/glow/v2@latest"
-
-[[profiles.packages]]
-name = "goimports"
-manager = "custom"
-binary_name = "goimports"
-install_command = "go install golang.org/x/tools/cmd/goimports@latest"
-
-[[profiles.packages]]
-name = "gojson"
-manager = "custom"
-binary_name = "gojson"
-install_command = "go install github.com/ChimeraCoder/gojson/gojson@latest"
-
-[[profiles.packages]]
-name = "golangci-lint"
-manager = "custom"
-binary_name = "golangci-lint"
-install_command = "go install github.com/golangci/golangci-lint/v2/cmd/golangci-lint@latest"
-
-[[profiles.packages]]
-name = "gomodifytags"
-manager = "custom"
-binary_name = "gomodifytags"
-install_command = "go install github.com/fatih/gomodifytags@latest"
-
-[[profiles.packages]]
-name = "gopls"
-manager = "custom"
-binary_name = "gopls"
-install_command = "go install golang.org/x/tools/gopls@latest"
-
-[[profiles.packages]]
-name = "gotests"
-manager = "custom"
-binary_name = "gotests"
-install_command = "go install github.com/cweill/gotests/gotests@latest"
-
-[[profiles.packages]]
-name = "gup"
-manager = "custom"
-binary_name = "gup"
-install_command = "go install github.com/nao1215/gup@latest"
-
-[[profiles.packages]]
-name = "hugo"
-manager = "custom"
-binary_name = "hugo"
-install_command = "go install github.com/gohugoio/hugo@latest"
-
-[[profiles.packages]]
 name = "lazygit"
 manager = "custom"
 binary_name = "lazygit"
 install_command = "go install github.com/jesseduffield/lazygit@latest"
-
-[[profiles.packages]]
-name = "meteor"
-manager = "custom"
-binary_name = "meteor"
-install_command = "go install github.com/stefanlogue/meteor@latest"
-
-[[profiles.packages]]
-name = "staticcheck"
-manager = "custom"
-binary_name = "staticcheck"
-install_command = "go install honnef.co/go/tools/cmd/staticcheck@latest"
-
-[[profiles.packages]]
-name = "trex"
-manager = "custom"
-binary_name = "trex"
-install_command = "go install github.com/samyakbardiya/trex@latest"
-
-[[profiles.packages]]
-name = "yamlfmt"
-manager = "custom"
-binary_name = "yamlfmt"
-install_command = "go install github.com/google/yamlfmt/cmd/yamlfmt@latest"
 
 [[profiles.packages]]
 name = "bookokrat"
@@ -805,12 +679,6 @@ package_name = "cargo-update"
 binary_name = "cargo-update"
 
 [[profiles.packages]]
-name = "delta"
-manager = "cargo"
-package_name = "git-delta"
-binary_name = "git-delta"
-
-[[profiles.packages]]
 name = "dotstate"
 manager = "cargo"
 package_name = "dotstate"
@@ -823,58 +691,16 @@ package_name = "exa"
 binary_name = "exa"
 
 [[profiles.packages]]
-name = "fd-find"
-manager = "cargo"
-package_name = "fd-find"
-binary_name = "fd-find"
-
-[[profiles.packages]]
-name = "furl-cli"
-manager = "cargo"
-package_name = "furl-cli"
-binary_name = "furl-cli"
-
-[[profiles.packages]]
-name = "hyperfine"
-manager = "cargo"
-package_name = "hyperfine"
-binary_name = "hyperfine"
-
-[[profiles.packages]]
-name = "jj-cli"
-manager = "cargo"
-package_name = "jj-cli"
-binary_name = "jj-cli"
-
-[[profiles.packages]]
 name = "just"
 manager = "cargo"
 package_name = "just"
 binary_name = "just"
 
 [[profiles.packages]]
-name = "lstr"
-manager = "cargo"
-package_name = "lstr"
-binary_name = "lstr"
-
-[[profiles.packages]]
-name = "macchina"
-manager = "cargo"
-package_name = "macchina"
-binary_name = "macchina"
-
-[[profiles.packages]]
 name = "miniserve"
 manager = "cargo"
 package_name = "miniserve"
 binary_name = "miniserve"
-
-[[profiles.packages]]
-name = "nu"
-manager = "cargo"
-package_name = "nu"
-binary_name = "nu"
 
 [[profiles.packages]]
 name = "pik"
@@ -917,12 +743,6 @@ name = "topgrade"
 manager = "cargo"
 package_name = "topgrade"
 binary_name = "topgrade"
-
-[[profiles.packages]]
-name = "typos-cli"
-manager = "cargo"
-package_name = "typos-cli"
-binary_name = "typos-cli"
 
 [[profiles.packages]]
 name = "xcp"
