@@ -1,4 +1,4 @@
-version = 1
+version = 2
 
 [common]
 synced_files = []
@@ -22,6 +22,7 @@ synced_files = [
     ".config/yazi/yazi.toml",
     ".config/zellij/config.kdl",
     ".duckdbrc",
+    ".eget.toml",
     ".golangci.yml",
     "Justfile",
     "ruff.toml",
@@ -423,6 +424,24 @@ description = "dust"
 manager = "cargo"
 package_name = "du-dust"
 binary_name = "du-dust"
+
+[[profiles.packages]]
+name = "texlive-xetex"
+manager = "apt"
+package_name = "texlive-xetex"
+binary_name = "texlive-xetex"
+
+[[profiles.packages]]
+name = "latex-cjk-all"
+manager = "apt"
+package_name = "latex-cjk-all"
+binary_name = "latex-cjk-all"
+
+[[profiles.packages]]
+name = "fonts-noto-cjk"
+manager = "apt"
+package_name = "fonts-noto-cjk"
+binary_name = "fonts-noto-cjk"
 
 [[profiles]]
 name = "desktop"
