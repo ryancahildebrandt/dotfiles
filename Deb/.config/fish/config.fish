@@ -35,6 +35,7 @@ alias z="zellij"
 alias gt="gotests -iw --use_go_cmp --all --excl=New --template_dir=/home/ryan/code/gotests/templates/testify"
 alias lstr="lstr -saG --icons --level=2"
 alias f="flow"
+alias tj="tjournal --config=/home/ryan/notes"
 
 #external commands/config
 source ~/.config/fzf/fzf_conf.fish

@@ -1,0 +1,45 @@
+backend_type = "Sqlite"   # Available options: Json, Sqlite. Default value: Sqlite.
+
+default_journal_priority = 3  # Sets the suggested priority while creating a new journal
+
+scroll_per_page = 5  # Sets how many journals will be scrolled when using page up/down commands
+
+sync_os_clipboard = false  # Syncs editor clipboard actions with operating system clipboard
+
+history_limit = 10  # Sets the maximum changes limit for the undo & redo stacks. Use 0 to disable it.
+
+colored_tags = true   # Sets if automatically coloring for tags is enabled.
+
+# Sets the visibility option for the datum of journals. Available options:
+#  - `show`: Render datum in journals list.
+#  - `hide`: Hide datum without providing an extra empty line for journal without `priority` value.
+#  - `empty_line`: Hide datum providing an extra empty line for journal without `priority` value.
+datum_visibility = "show"
+
+# Sets the directory where the application persists its state between sessions.
+# Default are "~/<HOME>/.local/state/tui-journal/" on Linux and "C:\Users\Alice\AppData\Roaming\tui-journal\" on Windows
+app_state_dir = "/home/ryan/.local/state/tui-journal/"
+
+[export]
+# default_path = "<Absolute_path_to_export_directory>"   # Optional default path to export multiple journals or a single journal's content. Falls back to the current directory if not specified.
+show_confirmation = true   # Show confirmation after successful export.
+scroll_per_page = 5    # Sets how many journals will be scrolled using Page-Up and Page-Down command
+
+[external_editor]
+# Set the external terminal editor to use from within the app.
+# If the value isn't set the app will try to retrieve the editor from git global configurations then It'll try with the environment variables VISUAL, EDITOR then it'll fallback to vi.
+# command = "nvim"
+# Enabling this save the journal content automatically after closing the external editor
+auto_save = true
+# Set the extension of the temporary file used with the external editor.
+# This influences syntax highlighting in external editor (e.g., "md" for Markdown support).
+temp_file_extension = "txt"
+
+# Note: external_editor can still be configured in one line to set the command. In that case, the default values for the other fields will be used
+# external_editor = "nvim"
+
+# [json_backend]
+# file_path = "<Documents-folder>/tui-journal/entries.json"
+
+[sqlite_backend]
+file_path = "/home/ryan/notes/entries.db"

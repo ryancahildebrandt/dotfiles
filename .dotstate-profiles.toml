@@ -9,6 +9,7 @@ synced_files = [
     ".bashrc",
     ".config/atuin/config.toml",
     ".config/bat/config",
+    ".config/ekphos/config.toml",
     ".config/fish/config.fish",
     ".config/fzf/fzf_conf.fish",
     ".config/jj/config.toml",
@@ -25,6 +26,7 @@ synced_files = [
     ".eget.toml",
     ".golangci.yml",
     "Justfile",
+    "notes/config.toml",
     "ruff.toml",
 ]
 
