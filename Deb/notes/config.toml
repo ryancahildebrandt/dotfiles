@@ -1,6 +1,6 @@
 backend_type = "Sqlite"   # Available options: Json, Sqlite. Default value: Sqlite.
 
-default_journal_priority = 3  # Sets the suggested priority while creating a new journal
+# default_journal_priority = 3  # Sets the suggested priority while creating a new journal
 
 scroll_per_page = 5  # Sets how many journals will be scrolled when using page up/down commands
 
