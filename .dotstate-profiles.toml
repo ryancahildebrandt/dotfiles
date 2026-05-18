@@ -463,6 +463,7 @@ synced_files = [
     ".config/yazi/wrapper.fish",
     ".config/yazi/yazi.toml",
     ".config/zellij/config.kdl",
+    ".eget.toml",
     ".nanorc",
     "Justfile",
     "make_symlinks.sh",
