@@ -1,7 +1,7 @@
 # ~/.config/fish/config.fish
 
 # Fish options 
-fish_add_path ~/.local/bin
+fish_add_path ~/.local/bin ~/go/bin /usr/bin
 
 zoxide init --cmd j fish | source
 # starship init fish | source
@@ -27,4 +27,3 @@ alias vpnconnect="sudo openvpn --config /etc/openvpn/client2.conf -d"
 
 #external commands/config
 source ~/github/dotfiles/laptop/blanks/commands.fish
-
