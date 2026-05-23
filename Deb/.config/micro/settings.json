@@ -1,8 +1,18 @@
 {
-	"lsp.server": "python=ruff,go=gopls,markdown=deno lsp,json=deno lsp",
-	"lsp.formatOnSave": true,
-	"lsp.tabcompletion": true,
-	"lsp.ignoreTriggerCharacters": "completion,signature",
-	"lsp.autocompleteDetails": true,
-	"mkparents": true
+    "autosu": true,
+    "colorscheme": "monokai",
+    "diffgutter": true,
+    "hlsearch": true,
+    "keymenu": true,
+    "lsp.autocompleteDetails": true,
+    "lsp.ignoreTriggerCharacters": "completion,signature",
+    "lsp.server": "python=ruff,go=gopls,markdown=deno lsp,json=deno lsp",
+    "mkparents": true,
+    "parsecursor": true,
+    "pluginchannels": [
+        "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"
+    ],
+    "reload": "auto",
+    "scrollbar": true,
+    "scrollbarchar": "."
 }
