@@ -118,3 +118,4 @@ fi
 
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
 eval "$(atuin init bash)"
+source /home/ryan/.local/share/bash-completion/completions/deno.bash

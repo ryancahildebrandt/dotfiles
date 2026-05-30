@@ -1,7 +1,7 @@
 # ~/.config/fish/config.fish
 
 # Fish options 
-fish_add_path ~/.local/bin ~/.local/share ~/.local/share/gem/ruby ~/.cargo/bin /root/.cargo/bin ~/go/bin /usr/bin/ruby ~/.rbenv/bin ~/.atuin/bin
+fish_add_path ~/.local/bin ~/.local/share ~/.local/share/gem/ruby ~/.cargo/bin /root/.cargo/bin ~/go/bin /usr/bin/ruby ~/.rbenv/bin ~/.atuin/bin ~/.deno/bin
 
 zoxide init --cmd j fish | source
 atuin init fish | source

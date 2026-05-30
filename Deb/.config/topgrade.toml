@@ -45,7 +45,7 @@ pre_sudo = true
 # display_time = true
 
 # Don't ask for confirmations (no default value)
-# assume_yes = true
+assume_yes = true
 
 # Do not ask to retry failed steps (default: false)
 no_retry = true
@@ -109,10 +109,10 @@ cleanup = true
 # Custom commands
 [commands]
 "apt update" = "sudo apt update"
-"apt dist-upgrade" = "sudo apt dist-upgrade"
-"apt full-upgrade" = "sudo apt full-upgrade"
-"apt autoremove" = "sudo apt autoremove"
-"apt autoclean" = "sudo apt autoclean"
+"apt dist-upgrade" = "sudo apt dist-upgrade -y"
+"apt full-upgrade" = "sudo apt full-upgrade -y"
+"apt autoremove" = "sudo apt autoremove -y"
+"apt autoclean" = "sudo apt autoclean -y"
 
 [python]
 # enable_pip_review = true                         ###disabled by default

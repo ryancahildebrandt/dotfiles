@@ -1,9 +1,11 @@
 {
+    "autosave": 3,
     "autosu": true,
-    "colorscheme": "monokai",
+    "colorscheme": "catppuccin-macchiato",
     "diffgutter": true,
+    "ftoptions": false,
     "hlsearch": true,
-    "keymenu": true,
+    "initlua": true,
     "lsp.autocompleteDetails": true,
     "lsp.ignoreTriggerCharacters": "completion,signature",
     "lsp.server": "python=ruff,go=gopls,markdown=deno lsp,json=deno lsp",
@@ -14,5 +16,5 @@
     ],
     "reload": "auto",
     "scrollbar": true,
-    "scrollbarchar": "."
+    "tabhighlight": true
 }
