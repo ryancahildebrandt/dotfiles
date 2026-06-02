@@ -2088,7 +2088,7 @@ roots = [".marksman.toml"]
 language-servers = [ "marksman", "markdown-oxide", "rumdl" ]
 indent = { tab-width = 2, unit = "  " }
 block-comment-tokens = { start = "<!--", end = "-->" }
-word-completion.trigger-length = 4
+# word-completion.trigger-length = 4
 
 [language.auto-pairs]
 '(' = ')'
