@@ -789,6 +789,8 @@ synced_files = [
     ".config/bat",
     ".config/fish/config.fish",
     ".config/fzf/fzf_conf.fish",
+    ".config/helix/config.toml",
+    ".config/helix/languages.toml",
     ".config/micro/bindings.json",
     ".config/micro/settings.json",
     ".config/rofi/config.rasi",
