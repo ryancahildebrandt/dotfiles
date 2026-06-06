@@ -1,7 +1,7 @@
 {
     "autosave": 3,
     "autosu": true,
-    "colorscheme": "catppuccin-macchiato",
+    "colorscheme": "monokai",
     "diffgutter": true,
     "ftoptions": false,
     "hlsearch": true,
