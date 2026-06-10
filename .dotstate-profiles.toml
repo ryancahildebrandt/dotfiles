@@ -13,6 +13,7 @@ synced_files = [
     ".config/fish/config.fish",
     ".config/fzf/fzf_conf.fish",
     ".config/jj/config.toml",
+    ".config/kak/kakrc",
     ".config/micro/bindings.json",
     ".config/micro/settings.json",
     ".config/nushell/config.nu",

@@ -1,0 +1,96 @@
+colorscheme tomorrow-night
+
+add-highlighter global/ number-lines -hlcursor -relative -separator "  " -cursor-separator "| "
+add-highlighter global/ show-matching
+
+set-option global tabstop 4
+set-option global indentwidth 4
+set-option global ui_options terminal_assistant=none
+set-option global scrolloff 8,3
+
+# Keybindings
+# -------------------
+
+map global normal <esc> ";,"
+map global insert <c-/> ":comment-line<ret>"
+map global insert <c-s> ":write<ret>"
+map global insert <c-q> ":write-all-quit<ret>"
+map global normal <c-/> ":comment-line<ret>"
+map global normal <c-s> ":write<ret>"
+map global normal <c-q> ":write-all-quit<ret>"
+
+# Enable editor config
+# ────────────────────
+
+hook global BufOpenFile .* %{ editorconfig-load }
+hook global BufNewFile .* %{ editorconfig-load }
+
+# Switch cursor color in insert mode
+# ──────────────────────────────────
+
+set-face global InsertCursor default,green+B
+
+hook global ModeChange .*:.*:insert %{
+    set-face window PrimaryCursor InsertCursor
+    set-face window PrimaryCursorEol InsertCursor
+}
+
+hook global ModeChange .*:insert:.* %{ try %{
+    unset-face window PrimaryCursor
+    unset-face window PrimaryCursorEol
+} }
+
+
+
+# kak-lsp
+eval %sh{kak-lsp}
+lsp-enable
+
+lsp-inlay-diagnostics-enable global
+lsp-inlay-hints-enable global
+
+set-option global modelinefmt "%opt{lsp_modeline} %opt{modelinefmt}"
+
+map global user l ':enter-user-mode lsp<ret>' -docstring 'LSP mode'
+
+map global goto d <esc>:lsp-definition<ret> -docstring 'LSP definition'
+map global goto r <esc>:lsp-references<ret> -docstring 'LSP references'
+map global goto y <esc>:lsp-type-definition<ret> -docstring 'LSP type definition'
+
+map global insert <tab> '<a-;>:try lsp-snippets-select-next-placeholders catch %{ execute-keys -with-hooks <lt>tab> }<ret>' -docstring 'Select next snippet placeholder'
+
+map global object a '<a-semicolon>lsp-object<ret>' -docstring 'LSP any symbol'
+map global object <a-a> '<a-semicolon>lsp-object<ret>' -docstring 'LSP any symbol'
+map global object f '<a-semicolon>lsp-object Function Method<ret>' -docstring 'LSP function or method'
+map global object t '<a-semicolon>lsp-object Class Interface Module Namespace Struct<ret>' -docstring 'LSP class or module'
+map global object d '<a-semicolon>lsp-diagnostic-object error warning<ret>' -docstring 'LSP errors and warnings'
+map global object D '<a-semicolon>lsp-diagnostic-object error<ret>' -docstring 'LSP errors'
+
+map global insert <c-n> '<a-;>:lsp-snippets-select-next-placeholders<ret>' -docstring 'Select next snippet placeholder'
+hook global InsertCompletionShow .* %{
+  unmap global insert <c-n> '<a-;>:lsp-snippets-select-next-placeholders<ret>'
+}
+hook global InsertCompletionHide .* %{
+  map global insert <c-n> '<a-;>:lsp-snippets-select-next-placeholders<ret>' -docstring 'Select next snippet placeholder'
+}
+
+
+
+# Plugins
+# -------
+
+source "~/.config/kak/plugins/plug.kak/rc/plug.kak"
+
+plug "andreyorst/plug.kak" noload
+plug "andreyorst/smarttab.kak"
+plug "alexherbo2/auto-pairs.kak" config %{
+  enable-auto-pairs
+}
+plug "secondary-smiles/kakoune-themes" theme config %{
+  colorscheme kanagawa
+}
+plug "andreyorst/powerline.kak" defer powerline_gruvbox %{
+    powerline-theme gruvbox
+} config %{
+    powerline-start
+}

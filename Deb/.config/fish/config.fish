@@ -1,7 +1,7 @@
 # ~/.config/fish/config.fish
 
 # Fish options 
-fish_add_path ~/.local/bin ~/.local/share ~/.local/share/gem/ruby ~/.cargo/bin /root/.cargo/bin ~/go/bin /usr/bin/ruby ~/.rbenv/bin ~/.atuin/bin ~/.deno/bin
+fish_add_path ~/.local/bin ~/.local/share ~/.local/share/gem/ruby ~/.cargo/bin /root/.cargo/bin ~/go/bin /usr/bin/ruby ~/.rbenv/bin ~/.atuin/bin ~/.deno/bin ~/.local/share/bob/nvim-bin
 
 zoxide init --cmd j fish | source
 atuin init fish | source
@@ -37,6 +37,7 @@ alias gt="gotests -iw --use_go_cmp --all --excl=New --template_dir=/home/ryan/co
 alias lstr="lstr -saG --icons --level=2"
 alias f="flow"
 alias tj="tjournal --config=/home/ryan/notes"
+alias v="nvim"
 
 #external commands/config
 source ~/.config/fzf/fzf_conf.fish
