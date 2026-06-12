@@ -38,6 +38,7 @@ alias lstr="lstr -saG --icons --level=2"
 alias f="flow"
 alias tj="tjournal --config=/home/ryan/notes"
 alias v="nvim"
+alias k="kak"
 
 #external commands/config
 source ~/.config/fzf/fzf_conf.fish

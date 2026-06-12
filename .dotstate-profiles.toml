@@ -19,6 +19,7 @@ synced_files = [
     ".config/nushell/config.nu",
     ".config/nushell/env.nu",
     ".config/nushell/plugins.nu",
+    ".config/nvim",
     ".config/topgrade.toml",
     ".config/yazi/wrapper.fish",
     ".config/yazi/yazi.toml",
