@@ -12,9 +12,6 @@ set-option global scrolloff 8,3
 # -------------------
 
 map global normal <esc> ";,"
-map global insert <c-/> ":comment-line<ret>"
-map global insert <c-s> ":write<ret>"
-map global insert <c-q> ":write-all-quit<ret>"
 map global normal <c-/> ":comment-line<ret>"
 map global normal <c-s> ":write<ret>"
 map global normal <c-q> ":write-all-quit<ret>"
