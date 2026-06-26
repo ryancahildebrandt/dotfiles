@@ -1,7 +1,9 @@
 [general]
 live_config_reload = true
 import = [
-	"~/.config/alacritty/themes/alacritty-theme/themes/catppuccin_macchiato.toml"
+	# "~/.config/alacritty/themes/alacritty-theme/themes/catppuccin_macchiato.toml"
+	# "~/.config/alacritty/themes/alacritty-theme/themes/citylights.toml"
+	"~/.config/alacritty/themes/alacritty-theme/themes/iris.toml"
 	]
 
 [colors]
