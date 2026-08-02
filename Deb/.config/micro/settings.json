@@ -8,7 +8,7 @@
     "initlua": true,
     "lsp.autocompleteDetails": true,
     "lsp.ignoreTriggerCharacters": "completion,signature",
-    "lsp.server": "python=ruff,go=gopls,markdown=deno lsp,json=deno lsp",
+    "lsp.server": "python=ruff,go=gopls,json=deno lsp",
     "mkparents": true,
     "parsecursor": true,
     "pluginchannels": [
